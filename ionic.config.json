@@ -1,0 +1,8 @@
+{
+  "name": "caniparkhere-app",
+  "app_id": "a2fd4bf6",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
