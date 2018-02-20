@@ -8,11 +8,12 @@
 </ion-header>
 
 <ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+  <h3>Welcome to CanIParkHere!</h3>
 
   <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
+    Please click this button to see if you are in our area of service!
   </p>
+  <button ion-button primary (click)="getLocation()">Locate Me!</button>
 
   <button ion-button secondary menuToggle>Toggle Menu</button>
 </ion-content>
