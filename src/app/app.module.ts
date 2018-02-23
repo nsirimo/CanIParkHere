@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
+import { AgmCoreModule } from '@agm/core';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -20,6 +21,9 @@ import { Geolocation } from '@ionic-native/geolocation';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyC8HflTKNC5-IDgtzYkJNOf6pZeZLaykLc' // This is the uniqu Google Maps API key
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [

@@ -8,20 +8,17 @@ import { Geolocation } from '@ionic-native/geolocation';
   templateUrl: 'home.html'
 })
 export class HomePage {
-  latCoords = 0.0;
-  lonCoords = 0.0;
+
+  // Insert default coordinates
+  latitude: number = 51.678418;
+  longitude: number = 7.809007;
 
   constructor(public navCtrl: NavController, private geolocation: Geolocation) {}
 
-
-
-
   getLocation(){
   this.geolocation.getCurrentPosition().then((resp) => {
-    this.latCoords = resp.coords.latitude;
-    this.lonCoords = resp.coords.longitude;
-
-    console.log(`Lat: ${this.latCoords} Long: ${this.lonCoords}`);
+    this.latitude = resp.coords.latitude;
+    this.longitude = resp.coords.longitude;
   }).catch((error) => {
     console.log('Error getting your location!', error);
   });
