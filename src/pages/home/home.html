@@ -17,7 +17,7 @@
   <button ion-button secondary menuToggle>Toggle Menu</button>
 
   <!-- This is the Google maps HTML tag -->
-  <agm-map [latitude]="latitude" [longitude]="longitude">
-
+  <agm-map [latitude]="latitude" [longitude]="longitude" (mapClick)="dropPin($event)">
+    <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
   </agm-map>
 </ion-content>

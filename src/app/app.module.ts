@@ -22,7 +22,7 @@ import { Geolocation } from '@ionic-native/geolocation';
     BrowserModule,
     IonicModule.forRoot(MyApp),
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyC8HflTKNC5-IDgtzYkJNOf6pZeZLaykLc' // This is the uniqu Google Maps API key
+      apiKey: 'AIzaSyC8HflTKNC5-IDgtzYkJNOf6pZeZLaykLc' // This is the unique Google Maps API key
     })
   ],
   bootstrap: [IonicApp],
