@@ -20,7 +20,7 @@ export class HomePage {
       this.latitude = resp.coords.latitude;
       this.longitude = resp.coords.longitude;
     }).catch((error) => {
-      console.log('Error getting your location!', error);
+      alert('Nuckin futs! It looks like you may have blocked CanIParkHere from getting your geolocation. Try again');
     });
   }
 
