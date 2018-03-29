@@ -45,5 +45,27 @@
   <!-- The main bundle js is generated during the build process -->
   <script src="build/main.js"></script>
 
+  <!-- Import Axios to allow HTTP requests to the Google Maps database -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <script>
+    geocode();
+    function geocode() {
+      var location = '22 Main st Boston MA';
+      axios.get('https://maps.googleapis.com/maps/api/geocode/json', {
+        params: {
+          address: location,
+          key: 'AIzaSyC8HflTKNC5-IDgtzYkJNOf6pZeZLaykLc'
+        }
+      })
+      .then(function(response){
+        console.log(response);
+      })
+      .catch(function(error){
+        console.log(error);
+      });
+    }
+  </script>
+
 </body>
 </html>

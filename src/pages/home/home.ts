@@ -27,6 +27,17 @@ export class HomePage {
   dropPin(event){
     this.latitude = event.coords.lat;
     this.longitude = event.coords.lng;
+    this.renderLocation();
+  }
+
+  renderLocation(){
+    // var location = '22 Main st Boston MA';
+    // axios.get('https://maps.googleapis.com/maps/api/geocode/json', {
+    //   parameters: {
+    //     address: location,
+    //     key: 'AIzaSyC8HflTKNC5-IDgtzYkJNOf6pZeZLaykLc'
+    //   }
+    // });
   }
 
 }
