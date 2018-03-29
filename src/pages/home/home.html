@@ -16,8 +16,14 @@
   <button ion-button primary (click)="getLocation()">Locate Me!</button>
   <button ion-button secondary menuToggle>Toggle Menu</button>
 
+  <!-- Search bar -->
+  <form>
+    <input id="search_bar" type="text" placeholder="Enter a street">
+  </form>
+
   <!-- This is the Google maps HTML tag -->
   <agm-map [latitude]="latitude" [longitude]="longitude" (mapClick)="dropPin($event)">
     <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
   </agm-map>
+  
 </ion-content>
