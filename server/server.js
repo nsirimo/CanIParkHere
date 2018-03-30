@@ -17,7 +17,7 @@ app.get('/posts', (req, res) => {
     res.send(post);
 });
 
-app.get('/test', async (req, res) => {
+app.get('/subdistricts', async (req, res) => {
     try {
         var subdistricts = await Subdistrict.find({});
         res.send(subdistricts);
