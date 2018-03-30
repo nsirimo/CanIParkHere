@@ -17,8 +17,9 @@
   <button ion-button secondary menuToggle>Toggle Menu</button>
 
   <!-- Search bar -->
-  <form>
+  <form id="location-form">
     <input id="search_bar" type="text" placeholder="Enter a street">
+    <button ion-button type="submit">Submit</button>
   </form>
 
   <!-- This is the Google maps HTML tag -->
@@ -26,4 +27,18 @@
     <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
   </agm-map>
   
+  <!-- Location data displayed to the screen -->
+  <ion-card>
+    <ion-card-header>Address</ion-card-header>
+    <ion-card-content id="formatted_address"></ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>Address Components</ion-card-header>
+    <ion-card-content id="address_components"></ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>Location Coordinates</ion-card-header>
+    <ion-card-content id="location_coordinates"></ion-card-content>
+  </ion-card>
+
 </ion-content>
