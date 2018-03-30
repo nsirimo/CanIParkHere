@@ -49,13 +49,16 @@
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
   <script>
-    displayLocationData();
+    //displayLocationData();
 
     // Displays the geolocation data of a given location
     // const searchBar = document.getElementById("search_bar");
     // searchBar.addEventListener('click', () => {
     //   var location;
     // });
+
+    const locationForm = document.getElementById('location_form');
+    locationForm.addEventListener('submit', displayLocationData);
 
     function displayLocationData() {
       var location = "22 Main st MA";
