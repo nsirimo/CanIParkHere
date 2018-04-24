@@ -60,14 +60,13 @@ app.post('/addparkinglot', (req, res) => {
 });
 
 
-app.get('/checkforsubdistrict', async (req, res) => {
+app.post('/checkforsubdistrict', async (req, res) => {
     try {
         var subDistData = req.body;
         var subDist = new Subdistrict(subDistData)
-        var subdistricts = await Subdistrict.find({'SubDistrictID': req.body});
-        //console.log(subDist);
-        //console.log(subDistData);
+        var subdistricts = await Subdistrict.find(subDistData);
         console.log(req.body);
+        console.log(subDistData);
         /*
         var tempSubDist = req.body;
         var subdistricts = await Subdistrict.find({'SubDistrictID': tempSubDist});
