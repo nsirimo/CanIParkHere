@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-module.exports = mongoose.model('Subdistrict', {
+module.exports = mongoose.model('Parkinglot', {
     LotID: Number,
     LotName: String,
     City: String,
@@ -11,11 +11,11 @@ module.exports = mongoose.model('Subdistrict', {
     Status: String,
     HourlyCost: String,
     DailyCost: String,
-    MonthlyCost: String.
+    MonthlyCost: String,
     Hours: String,
     Phone: String,
     Address: String,
     SpecialFeatures: String,
-    Spaces: String
-    Type: String,
+    Spaces: String,
+    Type: String
 });
