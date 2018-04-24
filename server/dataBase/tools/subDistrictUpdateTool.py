@@ -2,6 +2,7 @@ import json
 import urllib
 import os
 from datetime import datetime
+import requests
 import pprint
 
 class sDUpdTool:
@@ -9,6 +10,7 @@ class sDUpdTool:
     def __init__(self):
         print('sDUT')
         self.url = "https://data.lacity.org/resource/x8i3-2x54.json"
+        self.push_url = "http://localhost:3000/addsubdistrict"
         self.rawRemoteDataName = "x8i3-2x54.txt"  # txt so that it doesn't conflict
         self.rawLocalData = "rawLocSubDistRules.txt"  # txt so that it doesn't conflict
 
@@ -19,10 +21,11 @@ class sDUpdTool:
                 self.rem_data = json.load(f)  # Opens downloaded Data as JSON
             self.loc_dist_names = self.get_districts()  # retrieve names of Districts
             self.force_changes()
-        except:
+        except Exception, e:
             log_name = 'init-connection-error-{date:%Y-%m-%d %H:%M:%S}.log'.format(date=datetime.now())
             print("init_error")
-            self.log(log_name)
+            print(e)
+            self.log(log_name, str(e))
 
 
     def force_changes(self):
@@ -46,9 +49,8 @@ class sDUpdTool:
                     local["SweepTime"] = times
                     with open(j, "w") as f:
                         json.dump(local, f)
-                    #print(i["route_no"])
-                    #print(times)
-                    #print(day)
+        self.push_updates()
+
 
     def get_time(self, remote):
         #print(remote["time_start"])
@@ -76,6 +78,7 @@ class sDUpdTool:
             return "NA"
 
     def refresh(self):
+        print("rF")
         try:
             http = urllib.URLopener()
             http.retrieve(self.url, self.rawRemoteDataName)
@@ -89,6 +92,7 @@ class sDUpdTool:
                 return False
             else:
                 self.force_changes()
+                self.overwrite_old_data()
                 return True
 
         except Exception, e:
@@ -110,8 +114,16 @@ class sDUpdTool:
         f.write(body)
         f.close()
 
+    def push_updates(self):
+        sub_districts = self.get_districts()
+        for i in sub_districts:
+            with open(i) as f:
+                curr = json.load(f)
+            req = requests.post(self.push_url, json=curr)
+            print(req)
+
     def overwrite_old_data(self):
-        os.rename(self.rawLocalData, self.rawRemoteDataName)
+        os.rename(self.rawRemoteDataName, self.rawLocalData)
 
     #def update_time(self):
 
