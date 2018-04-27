@@ -9,37 +9,21 @@
 
 <ion-content padding>
   <h3>Welcome to CanIParkHere!</h3>
-
-  <p>
-    Please click this button to see if you are in our area of service!
-  </p>
   <button ion-button primary (click)="getLocation()">Locate Me!</button>
-  <button ion-button secondary menuToggle>Toggle Menu</button>
 
   <!-- Search bar -->
-  <form id="location_form">
-    <ion-label floating>Enter a street</ion-label>
-    <ion-input id="search_bar" type="text"></ion-input>
-    <button ion-button>Submit</button>
+  <form [formGroup]="searchBar" (ngSubmit)="getLocationData()">
+    <ion-item>
+        <ion-label floating color="primary">Enter an address</ion-label>
+        <ion-input formControlName="address" type="text" required></ion-input>
+    </ion-item>
+    <button ion-button>Search</button>
   </form>
-
-  <!-- This is the Google maps HTML tag -->
-  <agm-map [latitude]="latitude" [longitude]="longitude" (mapClick)="dropPin($event)">
-    <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
-  </agm-map>
   
-  <!-- Location data displayed to the screen -->
-  <ion-card>
-    <ion-card-header>Address</ion-card-header>
-    <ion-card-content id="formatted_address"></ion-card-content>
-  </ion-card>
-  <ion-card>
-    <ion-card-header>Address Components</ion-card-header>
-    <ion-card-content id="address_components"></ion-card-content>
-  </ion-card>
-  <ion-card>
-    <ion-card-header>Location Coordinates</ion-card-header>
-    <ion-card-content id="location_coordinates"></ion-card-content>
-  </ion-card>
-
+  <div id="map_wrapper">
+    <!-- This is the Google maps HTML tag -->
+    <agm-map [latitude]="latitude" [longitude]="longitude" (mapClick)="dropPin($event)">
+      <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
+    </agm-map>
+  </div>
 </ion-content>
