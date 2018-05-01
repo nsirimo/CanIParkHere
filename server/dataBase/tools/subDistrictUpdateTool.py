@@ -3,6 +3,7 @@ import urllib
 import os
 from datetime import datetime
 import requests
+import time
 import pprint
 
 class sDUpdTool:
@@ -11,6 +12,7 @@ class sDUpdTool:
         print('sDUT')
         self.url = "https://data.lacity.org/resource/x8i3-2x54.json"
         self.push_url = "http://localhost:3000/addsubdistrict"
+        self.delete_url = "http://localhost:3000/deletesubdistricts"
         self.rawRemoteDataName = "x8i3-2x54.txt"  # txt so that it doesn't conflict
         self.rawLocalData = "rawLocSubDistRules.txt"  # txt so that it doesn't conflict
 
@@ -29,7 +31,8 @@ class sDUpdTool:
 
 
     def force_changes(self):
-        print('fC')
+        print('fC-sDUT')
+        self.db_nuke()
         changed_sub_dist = []
         count = 0
         for i in self.rem_data:
@@ -78,7 +81,7 @@ class sDUpdTool:
             return "NA"
 
     def refresh(self):
-        print("rF")
+        print("rF-sDUT")
         try:
             http = urllib.URLopener()
             http.retrieve(self.url, self.rawRemoteDataName)
@@ -105,7 +108,7 @@ class sDUpdTool:
         temp = []
         for f in os.listdir("."):
             if f.endswith(".json"):
-                f.replace(".json","")
+                f.replace(".json", "")
                 temp.append(f)
         return temp
 
@@ -120,7 +123,14 @@ class sDUpdTool:
             with open(i) as f:
                 curr = json.load(f)
             req = requests.post(self.push_url, json=curr)
+            print(i)
             print(req)
+
+    def db_nuke(self):
+        print("Nuking Database")
+        req = requests.post(self.delete_url)
+        print(req)
+        time.sleep(1)
 
     def overwrite_old_data(self):
         os.rename(self.rawRemoteDataName, self.rawLocalData)
