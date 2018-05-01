@@ -59,6 +59,7 @@ app.post('/rangeData', async (req, res) => {
         var address = req.body;
         var subdistricts = await Subdistrict.find({ Streets: address });
         res.send(subdistricts);
+        console.log("HIT");
     } catch (error) {
         console.log(error);
         res.sendStatus(501);
