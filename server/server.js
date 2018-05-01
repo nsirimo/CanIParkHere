@@ -67,13 +67,27 @@ app.post('/checkforsubdistrict', async (req, res) => {
         var subdistricts = await Subdistrict.find(subDistData);
         console.log(req.body);
         console.log(subDistData);
-        /*
-        var tempSubDist = req.body;
-        var subdistricts = await Subdistrict.find({'SubDistrictID': tempSubDist});
-        console.log(temp);
-        console.log(subdistricts);
+        if(!subdistricts.length){
+          toRet = {"isFound": "False"};
+          res.send(toRet);
+        } else{
+          toRet = {"isFound": "True"};
+          res.send(toRet);
+        }
+        //res.send(subdistricts);
+    } catch (error) {
+        console.error(error);
+        res.sendStatus(501);
+    }
+});
+
+app.post('/deletesubdistrict', async (req, res) => {
+    try {
+        var subDistData = req.body;
+        var subDist = new Subdistrict(subDistData)
+        var subdistricts = await Subdistrict.find(subDistData);
         console.log(req.body);
-        */
+        console.log(subDistData);
         res.send(subdistricts);
     } catch (error) {
         console.error(error);
