@@ -67,6 +67,7 @@ app.post('/checkforsubdistrict', async (req, res) => {
         var subdistricts = await Subdistrict.find(subDistData);
         console.log(req.body);
         console.log(subDistData);
+        console.log(subdistricts);
         if(!subdistricts.length){
           toRet = {"isFound": "False"};
           res.send(toRet);
@@ -88,7 +89,15 @@ app.post('/deletesubdistrict', async (req, res) => {
         var subdistricts = await Subdistrict.find(subDistData);
         console.log(req.body);
         console.log(subDistData);
-        res.send(subdistricts);
+        console.log(subdistricts);
+        if(!subdistricts.length){
+          toRet = {"isDelete": "False"};
+          res.send(toRet);
+        } else{
+          await Subdistrict.remove(subDistData);
+          toRet = {"isDelete": "True"};
+          res.send(toRet);
+        }
     } catch (error) {
         console.error(error);
         res.sendStatus(501);
