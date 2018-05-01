@@ -1,6 +1,7 @@
 import json
 import urllib
 import os
+import time
 from datetime import datetime
 from pprint import pprint
 import requests
@@ -28,6 +29,7 @@ class pLotUpdateTool:
 
     def force_changes(self):
         print("fC-pLUT")
+        self.db_nuke()
         for i in self.new_data["features"]:
             cur_lot = str(i["properties"]["ID"]) + ".lot"
             formatted_data = self.format(i["properties"])
@@ -65,6 +67,12 @@ class pLotUpdateTool:
             #payload = {'json_payload': data_json}
             req = requests.post(self.post_url, json=curr)
             print(req)
+
+    def db_nuke(self):
+        print("Nuking Database")
+        req = requests.post(self.delete_url)
+        print(req)
+        time.sleep(1)
 
     def format(self, lot_info):
         lot_id = lot_info.get("ID")
