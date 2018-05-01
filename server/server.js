@@ -59,6 +59,22 @@ app.post('/addparkinglot', (req, res) => {
     });
 });
 
+app.post('/deleteparkinglots', async (req, res) => {
+    try {
+        var parkingLots = await Parkinglot.find();
+        if(!parkingLots.length){
+          toRet = {"isDelete": "False"};
+          res.send(toRet);
+        } else{
+          await Parkinglot.remove();
+          toRet = {"isDelete": "True"};
+          res.send(toRet);
+        }
+    } catch (error) {
+        console.error(error);
+        res.sendStatus(501);
+    }
+});
 
 app.post('/checkforsubdistrict', async (req, res) => {
     try {
@@ -82,11 +98,11 @@ app.post('/checkforsubdistrict', async (req, res) => {
     }
 });
 
-app.post('/deletesubdistrict', async (req, res) => {
+app.post('/deletesubdistricts', async (req, res) => {
     try {
         var subDistData = req.body;
         var subDist = new Subdistrict(subDistData)
-        var subdistricts = await Subdistrict.find(subDistData);
+        var subdistricts = await Subdistrict.find();
         console.log(req.body);
         console.log(subDistData);
         console.log(subdistricts);
@@ -94,7 +110,7 @@ app.post('/deletesubdistrict', async (req, res) => {
           toRet = {"isDelete": "False"};
           res.send(toRet);
         } else{
-          await Subdistrict.remove(subDistData);
+          await Subdistrict.remove();
           toRet = {"isDelete": "True"};
           res.send(toRet);
         }
