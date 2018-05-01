@@ -5,6 +5,7 @@ import { FormControl, FormGroup } from '@angular/forms';
 import { Geolocation } from '@ionic-native/geolocation';
 
 import axios from 'axios';
+import { HomeService } from './home.service';
 
 @Component({
   selector: 'page-home',
@@ -17,10 +18,10 @@ export class HomePage {
   latitude: number = 40.730610;
   longitude: number = -73.935242;
 
-  constructor(public navCtrl: NavController, private geolocation: Geolocation) {
+  constructor(public navCtrl: NavController, private geolocation: Geolocation, private homeService: HomeService) {
     this.searchBar = new FormGroup({
-      address: new FormControl()
-   });
+        address: new FormControl()
+    });
   }
 
   getLocation() {
@@ -38,6 +39,7 @@ export class HomePage {
     this.getLocationData();
   }
 
+  // Grabs the user input from the search bar and returns an object storing the location data
   getLocationData() {
 
     // Grab the location from the search bar
@@ -88,7 +90,11 @@ export class HomePage {
         locationData.latitude = result.geometry.location.lat;
         locationData.longitude = result.geometry.location.lng;
 
+        // Print the location data for testing purposes
         console.log(locationData);
+
+        // Call the sendLocationData method from the HomeService
+        this.homeService.sendLocationData(locationData);
       })
       .catch(function(error){
         console.log(error);
