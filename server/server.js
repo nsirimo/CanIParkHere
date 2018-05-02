@@ -57,9 +57,9 @@ app.post('/addsubdistrict', (req, res) => {
 app.post('/rangeData', async (req, res) => {
     try {
         var address = req.body;
+        //console.log(address); // TEST: Make sure the location data is passed in correctly
         var subdistricts = await Subdistrict.find({ Streets: address });
         res.send(subdistricts);
-        console.log("HIT");
     } catch (error) {
         console.log(error);
         res.sendStatus(501);

@@ -8,7 +8,7 @@ export class ApiService {
     constructor(private http: Http) {}
 
     sendLocationData(locationData) {
-        this.http.get('http://localhost:3000/posts', locationData).subscribe(res => {
+        this.http.post('http://localhost:3000/rangeData', locationData).subscribe(res => {
             console.log(res.json());
         });
     }

@@ -1,4 +1,4 @@
-import { ApiService } from './../../app/apiService.service';
+import { ApiService } from '../../app/apiService.service';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { FormControl, FormGroup } from '@angular/forms';
@@ -90,7 +90,7 @@ export class HomePage {
         locationData.longitude = result.geometry.location.lng;
 
         // Print the location data for testing purposes
-        //console.log(locationData);
+        console.log(locationData);
       })
       .catch(function(error){
         console.log(error);
