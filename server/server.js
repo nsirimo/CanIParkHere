@@ -13,7 +13,7 @@ var post = [
 
 var testStreet = [
     {
-        ShortName: '55th St',
+        ShortName: 'Budlong Ave',
 
         Coord: [
             -118.3259215,
@@ -58,8 +58,22 @@ app.post('/addsubdistrict', (req, res) => {
 app.post('/rangeData', async (req, res) => {
     try {
         var address = req.body;
-        //console.log(address); // TEST: Make sure the location data is passed in correctly
-        var subdistricts = await Subdistrict.find({ Streets: address });
+        var tempStreet = [
+            {
+                ShortName: address.ShortName,
+        
+                Coord: [
+                    address.latitude,
+                    address.longitude
+                ]
+            }
+        
+        ]
+
+        var subdistricts = await Subdistrict.find({
+            ShortName: tempStreet.ShortName
+        });
+
         res.send(subdistricts);
     } catch (error) {
         console.log(error);
@@ -74,7 +88,7 @@ app.post('/addparkinglot', (req, res) => {
     console.log(parkingLot);
     console.log(parkingLotData);
     parkingLot.save((err, result) => {
-        if(err){
+        if (err) {
             console.log('Saving User Error');
             res.sendStatus(501);
         } else {
