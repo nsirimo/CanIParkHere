@@ -4,6 +4,7 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var app = express();
 var Subdistrict = require('./Models/Subdistrict');
+var Parkinglot = require('./Models/Parkinglot');
 
 var post = [
     { message: 'Hello!' },
@@ -62,6 +63,44 @@ app.post('/rangeData', async (req, res) => {
         res.send(subdistricts);
     } catch (error) {
         console.log(error);
+        res.sendStatus(501);
+    }
+});
+
+app.post('/addparkinglot', (req, res) => {
+    var parkingLotData = req.body;
+
+    var parkingLot = new Parkinglot(parkingLotData);
+    console.log(parkingLot);
+    console.log(parkingLotData);
+    parkingLot.save((err, result) => {
+        if(err){
+            console.log('Saving User Error');
+            res.sendStatus(501);
+        } else {
+            res.sendStatus(200);
+        }
+    });
+});
+
+
+app.post('/checkforsubdistrict', async (req, res) => {
+    try {
+        var subDistData = req.body;
+        var subDist = new Subdistrict(subDistData)
+        var subdistricts = await Subdistrict.find(subDistData);
+        console.log(req.body);
+        console.log(subDistData);
+        /*
+        var tempSubDist = req.body;
+        var subdistricts = await Subdistrict.find({'SubDistrictID': tempSubDist});
+        console.log(temp);
+        console.log(subdistricts);
+        console.log(req.body);
+        */
+        res.send(subdistricts);
+    } catch (error) {
+        console.error(error);
         res.sendStatus(501);
     }
 });
