@@ -9,15 +9,21 @@
 
 <ion-content padding>
   <h3>Welcome to CanIParkHere!</h3>
-
-  <p>
-    Please click this button to see if you are in our area of service!
-  </p>
   <button ion-button primary (click)="getLocation()">Locate Me!</button>
-  <button ion-button secondary menuToggle>Toggle Menu</button>
 
-  <!-- This is the Google maps HTML tag -->
-  <agm-map [latitude]="latitude" [longitude]="longitude" (mapClick)="dropPin($event)">
-    <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
-  </agm-map>
+  <!-- Search bar -->
+  <form [formGroup]="searchBar" (ngSubmit)="getLocationData()">
+    <ion-item>
+        <ion-label floating color="primary">Enter an address</ion-label>
+        <ion-input formControlName="address" type="text" required></ion-input>
+    </ion-item>
+    <button ion-button>Search</button>
+  </form>
+  
+  <div id="map_wrapper">
+    <!-- This is the Google maps HTML tag -->
+    <agm-map [latitude]="latitude" [longitude]="longitude" (mapClick)="dropPin($event)">
+      <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
+    </agm-map>
+  </div>
 </ion-content>

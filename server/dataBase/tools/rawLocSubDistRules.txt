@@ -1,0 +1,864 @@
+[{"boundaries":"Chandler Bl. to Ventura Fwy / Colfax Av. to Laurel Cyn. Bl.","cd":"2","route_no":"* 17P100","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Chandler Bl. to Ventura Fwy / Colfax Av. to Laurel Cyn. Bl.","cd":"2","route_no":"*17P100","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"La Brea Ave to Arlington Ave- Santa Monica Fwy to Adams Blvd","cd":"10","route_no":"10P136 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"La Brea Ave to Arlington Ave -Santa Monica Fwy to Adams Blvd","cd":"10","route_no":"10P136 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Adams Blvd to Jefferson Blvd - La Cienega Blvd to Hauser Blvd","cd":"10","route_no":"10P137 M","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Adams Blvd to Jefferson Blvd - La Cienega Blvd to Hauser Blvd","cd":"10","route_no":"10P137 Tu","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Adams Blvd to Jefferson Blvd - Hauser Blvd to La Brea Ave","cd":"10","route_no":"10P138 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Adams Blvd to Jefferson Blvd - Hauser Blvd to La Brea Ave","cd":"10","route_no":"10P138 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Jefferson Blvd to Coliseum St- Hauser Ave to Holdrege Ave","cd":"10","route_no":"10P139 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Jefferson Blvd to Coliseum St- Hauser Ave to Holdrege Ave","cd":"10","route_no":"10P139 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Exposition Blvd to Coliseum St - Hauser Blvd to La Brea Ave","cd":"10","route_no":"10P140 M","time_end":"3:00 PM","time_start":"1:00 PM"}
+,{"boundaries":"Exposition Blvd to Coliseum St - Hauser Blvd to La Brea Ave","cd":"10","route_no":"10P140 Tu","time_end":"3:00 PM","time_start":"1:00 PM"}
+,{"boundaries":"Adams Blvd to Santa Monica Fwy - La Brea Ave to Fairfax Ave","cd":"10","route_no":"10P141 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Adams Blvd to Santa Monica Fwy - La Brea Ave to Fairfax Ave","cd":"10","route_no":"10P141 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Adams Blvd to Jefferson Blvd - Arlington Ave to Edgehill Dr","cd":"10","route_no":"10P142 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Adams Blvd to Jefferson Blvd - Arlington Ave to Edgehill Dr","cd":"10","route_no":"10P142 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Adams Blvd to Jefferson Blvd - Crenshaw Blvd to Edgehill Dr","cd":"10","route_no":"10P143 Th","time_end":"1:00 PM","time_start":"11:00 AM"}
+,{"boundaries":"Adams Blvd to Jefferson Blvd - Crenshaw Blvd to Edgehill Dr","cd":"10","route_no":"10P143 W","time_end":"1:00 PM","time_start":"11:00 AM"}
+,{"boundaries":"Adams Blvd to Exposition Blvd - West Blvd to Crenshaw Blvd","cd":"10","route_no":"10P144 Th","time_end":"3:00 PM","time_start":"1:00 PM"}
+,{"boundaries":"Adams Blvd to Exposition Blvd -West Blvd to Crenshaw Blvd","cd":"10","route_no":"10P144 W","time_end":"3:00 PM","time_start":"1:00 PM"}
+,{"boundaries":"Santa Monica Fwy to Jefferson Blvd- Normandie Ave to Western Av","cd":"8","route_no":"10P145 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Santa Monica Fwy to Jefferson Blvd - Normandie Ave to Western Av","cd":"8","route_no":"10P145 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Santa Monica Fwy to Adams Blvd- Normandie Ave to Vermont Ave","cd":"8","route_no":"10P146 Th","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Santa Monica Fwy to Adams Blvd- Normandie Ave to Vermont Ave","cd":"8","route_no":"10P146 W","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Adams Blvd to Jefferson Blvd - Normandie Ave to Vermont Ave","cd":"8","route_no":"10P147 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Adams Blvd to Jefferson Blvd - Normandie Ave to Vermont Ave","cd":"8","route_no":"10P147 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Vermont Ave to Normandie Ave - Jefferson Blvd to Exposition Blvd","cd":"8","route_no":"10P148 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Vermont Ave to Normandie Ave - Jefferson Blvd to Exposition Blvd","cd":"8","route_no":"10P148 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Normandie Ave to Western Ave - Jefferson Blvd to Exposition Blvd","cd":"8","route_no":"10P149 Th","time_end":"3:00 PM","time_start":"1:00 PM"}
+,{"boundaries":"Normandie Ave to Western Ave - Jefferson Blvd to Exposition Blvd","cd":"8","route_no":"10P149 W","time_end":"3:00 PM","time_start":"1:00 PM"}
+,{"boundaries":"Santa Monica Fwy to Jefferson Blvd - Arlington Ave to Western Av","cd":"10","route_no":"10P150 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Santa Monica Fwy to Jefferson Blvd - Arlington Ave to Western Av","cd":"10","route_no":"10P150 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Jefferson Blvd to Exposition Blvd - Arlington Ave to Crenshaw Blvd","cd":"10","route_no":"10P151 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Jefferson Blvd to Exposition Blvd - Arlington Ave to Crenshaw Blvd","cd":"10","route_no":"10P151 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Rodeo Rd to Martin L. King Blvd - Crenshaw Blvd to Westside Ave","cd":"10","route_no":"10P152 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Rodeo Rd to Martin L. King Blvd - Crenshaw Blvd to Westside Ave","cd":"10","route_no":"10P152 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Rodeo Rd to Martin L. King Blvd - Arlington Ave to Westside Ave","cd":"10","route_no":"10P153 Th","time_end":"3:00 PM","time_start":"1:00 PM"}
+,{"boundaries":"Rodeo Rd to Martin L. King Blvd- Arlington Ave to Westside Ave","cd":"10","route_no":"10P153 W","time_end":"3:00 PM","time_start":"1:00 PM"}
+,{"boundaries":"Adams Blvd to Exposition Blvd - West Blvd to La Brea Ave","cd":"10","route_no":"10P154 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Adams Blvd to Exposition Blvd -West Blvd to La Brea Ave","cd":"10","route_no":"10P154 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Exposition Blvd to Martin L. King Blvd - Crenshaw Blvd to La Brea Av","cd":"10","route_no":"10P155 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Exposition Blvd to Martin L. King Blvd - Crenshaw Blvd to La Brea Av","cd":"10","route_no":"10P155 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Martin L. King Blvd to Don Ricardo Dr- Gibralter Ave to Hillcrest Dr","cd":"10","route_no":"10P156 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Martin L. King Blvd to Don Ricardo Dr - Gibralter Ave to Hillcrest Dr","cd":"10","route_no":"10P156 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Martin L. King Blvd to Don Diablo Dr - Hillcrest Dr to Marlton Ave","cd":"10","route_no":"10P157 Th","time_end":"3:00 PM","time_start":"1:00 PM"}
+,{"boundaries":"Martin L. King Blvd to Don Diablo Dr - Hillcrest Dr to Marlton Ave","cd":"10","route_no":"10P157 W","time_end":"3:00 PM","time_start":"1:00 PM"}
+,{"boundaries":"Jefferson Blvd to Exposition Blvd- Western Ave to Arlington Ave","cd":"10","route_no":"10P158 Th","time_end":"9:30 AM","time_start":"7:30 AM"}
+,{"boundaries":"Jefferson Blvd to Exposition Blvd- Western Ave to Arlington Ave","cd":"10","route_no":"10P158 W","time_end":"9:30 AM","time_start":"7:30 AM"}
+,{"boundaries":"Exposition Blvd to Martin L. King Bl- Western Ave to Arlington Ave","cd":"10","route_no":"10P159 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Exposition Blvd to Martin L. King Bl- Western Ave to Arlington Ave","cd":"10","route_no":"10P159 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Exposition Blvd to Martin L. King Bl-Normandie Ave to Western Ave","cd":"8","route_no":"10P160 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Exposition Blvd to Martin L. King Bl- Normandie Ave to Western Ave","cd":"8","route_no":"10P160 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Exposition Blvd to Martin L. King Bl-Vermont Ave to Normandie AVe","cd":"8","route_no":"10P161 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Exposition Blvd to Martin L. King Bl- Vermont Ave to Normandie AVe","cd":"8","route_no":"10P161 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Martin L. King Blvd to Vernon Ave-Vermont Ave to Normandie Ave","cd":"8","route_no":"10P162 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Martin L. King Blvd to Vernon Ave-Vermont Ave to Normandie Ave","cd":"8","route_no":"10P162 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Normandie Ave to Western Ave- Vernon Ave to Martin L. King Blvd","cd":"8","route_no":"10P163 Th","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Normandie Ave to Western Ave-Vernon Ave to Martin L. King Blvd","cd":"8","route_no":"10P163 W","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Vernon Ave to 51st St- Normandie Ave to Vermont Ave","cd":"8","route_no":"10P164 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Vernon Ave to 51st St- Normandie Ave to Vermont Ave","cd":"8","route_no":"10P164 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"51st St to Slauson Ave- Vermont St to Normandie Ave","cd":"8","route_no":"10P165 Th","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"51st St to Slauson Ave-Vermont St to Normandie Ave","cd":"8","route_no":"10P165 W","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Vernon Ave to 51st Pl-Western Ave to Normandie Ave","cd":"8","route_no":"10P166 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Vernon Ave to 51st Pl-Western Ave to Normandie Ave","cd":"8","route_no":"10P166 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"51st Pl to Slauson Ave-Normandie Ave to Western Ave","cd":"8","route_no":"10P167 Th","time_end":"3:00 PM","time_start":"1:00 PM"}
+,{"boundaries":"51st Pl to Slauson Ave-Normandie Ave to Western Ave","cd":"8","route_no":"10P167 W","time_end":"3:00 PM","time_start":"1:00 PM"}
+,{"boundaries":"Vernon Ave to 52nd St-Western Ave to Arlington Ave","cd":"8","route_no":"10P168 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Vernon Ave to 52nd St- Western Ave to Arlington Ave","cd":"8","route_no":"10P168 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"52nd St to Slauson Ave- Arlington Ave to Western Ave","cd":"8","route_no":"10P169 Th","time_end":"3:00 PM","time_start":"1:00 PM"}
+,{"boundaries":"52nd St to Slauson Ave-Arlington Ave to Western Ave","cd":"8","route_no":"10P169 W","time_end":"3:00 PM","time_start":"1:00 PM"}
+,{"boundaries":"52nd St to Slauson Ave-8th Ave to Cimarron","cd":"8","route_no":"10P170 Th","time_end":"9:30 AM","time_start":"7:30 AM"}
+,{"boundaries":"52nd St to Slauson Ave- 8th Ave to Cimarron","cd":"8","route_no":"10P170 W","time_end":"9:30 AM","time_start":"7:30 AM"}
+,{"boundaries":"Vernon Ave to 52nd St -10th Ave to Arlington Ave","cd":"8","route_no":"10P171 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Vernon Ave to 52nd St -10th Ave to Arlington Ave","cd":"8","route_no":"10P171 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Martin L. King Blvd to Vernon Ave- 4th Ave to Crenshaw Blvd","cd":"10","route_no":"10P172 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Martin L. King Blvd to Vernon Ave-  4th Ave to Crenshaw Blvd","cd":"10","route_no":"10P172 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Martin L. King Blvd to Vernon Ave-Western Ave to 3rd Ave","cd":"10","route_no":"10P173 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Martin L. King Blvd to Vernon Ave- Western Ave to 3rd Ave","cd":"10","route_no":"10P173 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Slauson ave to 67th st- Vermont Ave to Normandie Ave","cd":"8","route_no":"10P174 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Slauson ave to 67th st- Vermont Ave to Normandie Ave","cd":"8","route_no":"10P174 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Slauson ave to 67th st- Normandie to Western Ave","cd":"8","route_no":"10P175 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Slauson ave to 67th st- Normandie to Western Ave","cd":"8","route_no":"10P175 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Southwest Dr to 67th st-Western Ave to 8th Ave","cd":"8","route_no":"10P176 M","time_end":"2:30 PM","time_start":"12:30 PM"}
+,{"boundaries":"Southwest Dr to 67th st-Western Ave to 8th Ave","cd":"8","route_no":"10P176 Tu","time_end":"2:30 PM","time_start":"12:30 PM"}
+,{"boundaries":"Slauson Ave to Hyde Park Bl-Western Ave to 8th Ave","cd":"8","route_no":"10P177 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Slauson Ave to Hyde Park Bl-Western Ave to 8th Ave","cd":"8","route_no":"10P177 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"48th St to Slauson Ave - 8th Ave to Hillcrest Dr","cd":"8","route_no":"10P178 F","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"48th st to Slauson Ave -8th Ave to Hillcrest DR","cd":"8","route_no":"10P178 M","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Slauson Ave to Florence Ave- 8th Ave to West Bl","cd":"8","route_no":"11P180 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Slauson Ave to Florence Ave- 8th Ave to West Bl","cd":"8","route_no":"11P180 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Slauson Ave to 64th st- West Bl to Alviso Ave","cd":"8","route_no":"11P181 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Slauson Ave to 64th st- West Bl to Alviso Ave","cd":"8","route_no":"11P181 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Manchester Blvd to 96th St-Western Ave to Van Ness","cd":"8","route_no":"11P182 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Manchester Blvd to 96th St-Western Ave to Van Ness","cd":"8","route_no":"11P182 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"96th St to 108th St-Western Ave to Van Ness Ave","cd":"8","route_no":"11P183 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"96th St to 108th St-Western Ave to Van Ness Ave","cd":"8","route_no":"11P183 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"92nd St to 104th St- Normandie Ave to Western Ave","cd":"8","route_no":"11P184 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"92nd St to 104th St- Normandie Ave to Western Ave","cd":"8","route_no":"11P184 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Manchester Ave to 92nd St - Normandie Ave to Western Ave","cd":"8","route_no":"11P185 M","time_end":"3:00 PM","time_start":"1:00 PM"}
+,{"boundaries":"Manchester Ave to 92nd St - Normandie Ave to Western Ave","cd":"8","route_no":"11P185 Tu","time_end":"3:00 PM","time_start":"1:00 PM"}
+,{"boundaries":"Manchester Ave to Century Blvd, Vicksburg Ave to La Cienega Bl","cd":"11","route_no":"11P186 Th","time_end":"2:30 PM","time_start":"12:00 PM"}
+,{"boundaries":"Manchester Ave to Century Blvd, Vicksburg Ave to La Cienega Bl","cd":"11","route_no":"11P186 W","time_end":"2:30 PM","time_start":"12:00 PM"}
+,{"boundaries":"76th St to Manchester Ave - Normandie Ave to Western Ave","cd":"8","route_no":"11P187 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"76th St to Manchester Ave - Normandie Ave to Western Ave","cd":"8","route_no":"11P187 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"76th St to Manchester Ave - Western Ave to West City Limits","cd":"8","route_no":"11P188 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"76th St to Manchester Ave - Western Ave to West City Limits","cd":"8","route_no":"11P188 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"67th St to Florence Ave - Vermont Ave to Van Ness Ave","cd":"8","route_no":"11P189  M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"67th St to Florence Ave - Vermont Ave to Van Ness Ave","cd":"8","route_no":"11P189 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Florence Ave to 76th St - Vermont Ave to Van Ness Ave","cd":"8","route_no":"11P190 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Florence Ave to 76th St - Vermont Ave to Van Ness Ave","cd":"8","route_no":"11P190 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"67th St to 79th st-Van Ness Ave to West City Limits","cd":"8","route_no":"11P191 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"67th St to 79th st-Van Ness Ave to West City Limits","cd":"8","route_no":"11P191 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"83rd St to Westchester Pkwy- Lilienthal Ave to Sepulveda Bl","cd":"11","route_no":"11P192 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"83rd St to Westchester Pkwy- Lilienthal Ave to Sepulveda Bl","cd":"11","route_no":"11P192 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"76th St to Manchester Ave - Vermont Ave to Normandie Ave","cd":"8","route_no":"11P333 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"76th St to Manchester Ave - Vermont Ave to Normandie Ave","cd":"8","route_no":"11P333 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"LA City Limits to Manitoba St -Saran Dr to Ocean Front Walk","cd":"11","route_no":"11P354 Th","time_end":"2:30 PM","time_start":"12:00 PM"}
+,{"boundaries":"LA City Limits to Manitoba St -Saran Dr to Ocean Front Walk","cd":"11","route_no":"11P354 W","time_end":"2:30 PM","time_start":"12:00 PM"}
+,{"boundaries":"Alley's north of and south of Pico Blvd- Robertson Blvd to Beverly Dr","cd":"5","route_no":"12NP200","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"California Ave to Venice Blvd - Lincoln Blvd to Electric Ave","cd":"11","route_no":"12P124 Th","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"California Ave to Venice Blvd - Lincoln Blvd to Electric Ave","cd":"11","route_no":"12P124 W","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Santa Monica c/b to Indiana Ave-Lincoln Blvd to Main St","cd":"11","route_no":"12P125 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Santa Monica c/b to Indiana Ave-Lincoln Blvd to Main St","cd":"11","route_no":"12P125 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Indiana Ave to California Ave-Lincoln Blvd to Electric Ave","cd":"11","route_no":"12P126 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Indiana Ave to California Ave-Lincoln Blvd to Electric Ave","cd":"11","route_no":"12P126 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Victoria Ave/McCune Ave to Venice Blvd-Centinela Ave to Lincoln Blvd","cd":"11","route_no":"12P127 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Victoria Ave/McCune Ave to Venice Blvd-Centinela Ave to Lincoln Blvd","cd":"11","route_no":"12P127 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Abbott Blvd to Pacific Ave-Venice Blvd to Westminister Ave","cd":"11","route_no":"12P128 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Abbott Blvd to Pacific Ave-Venice Blvd to Westminister Ave","cd":"11","route_no":"12P128 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Washington Blvd to Jefferson Blvd-Sawtelle Blvd to Alla Rd","cd":"11","route_no":"12P129 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Washington Blvd to Jefferson Blvd-Sawtelle Blvd to Alla Rd","cd":"11","route_no":"12P129 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"La Villa Marina to Lincoln Blvd=Fiji Way to Mindinao Way","cd":"11","route_no":"12P139 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"La Villa Marina to Lincoln Blvd=Fiji Way to Mindinao Way","cd":"11","route_no":"12P139 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Venice Blvd to Washington Pl-Centinela Blvd to Walgrove Ave","cd":"11","route_no":"12P140 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Venice Blvd to Washington Pl-Centinela Blvd to Walgrove Ave","cd":"11","route_no":"12P140 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Venice Bl to Washington Pl-Walgrove Av to Abbot Kinney Bl","cd":"11","route_no":"12P141 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Venice Bl to Washington Pl-Walgrove Av to Abbot Kinney Bl","cd":"11","route_no":"12P141 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Airdrome St to Santa Monica Fwy- Motor Ave to Robertson Bl","cd":"5","route_no":"12P142 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Airdrome St to Santa Monica Fwy- Motor Ave to Robertson Bl","cd":"5","route_no":"12P142 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Whitworth Dr to Airdrome St-Robertson Blvd to Beverly Dr","cd":"5","route_no":"12P143 M","time_end":"2:30 PM","time_start":"12:00 PM"}
+,{"boundaries":"Whitworth Dr to Airdrome St-Robertson Blvd to Beverly Dr","cd":"5","route_no":"12P143 Tu","time_end":"2:30 PM","time_start":"12:00 PM"}
+,{"boundaries":"Venice Blvd to Culver City Limit-Bledsoe Ave to Centinela Ave","cd":"5","route_no":"12P171 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Venice Blvd to Culver City Limit-Bledsoe Ave to Centinela Ave","cd":"5","route_no":"12P171 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Beverly Hills City Limits to Pico Blvd-Beverly Dr to Beverly Hills City Limits","cd":"5","route_no":"12P225 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Beverly Hills City Limits to Pico Blvd-Beverly Dr to Beverly Hills City Limits","cd":"5","route_no":"12P225 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Kelton Ave to Sepulveda Blvd-Rose Ave to Venice Blvd","cd":"5","route_no":"12P287 Th","time_end":"2:30 PM","time_start":"12:00 PM"}
+,{"boundaries":"Kelton Ave to Sepulveda Blvd-Rose Ave to Venice Blvd","cd":"5","route_no":"12P287 W","time_end":"2:30 PM","time_start":"12:00 PM"}
+,{"boundaries":"Santa Monica Fwy to Culver City Limits-Ellis Ave to Overland Ave ","cd":"5","route_no":"12P288 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Santa Monica Fwy to Culver City Limits-Ellis Ave to Overland Ave ","cd":"5","route_no":"12P288 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Hughes Ave to Kelton Ave-National Blvd to Venice Blvd","cd":"5","route_no":"12P289 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Hughes Ave to Kelton Ave-National Blvd to Venice Blvd","cd":"5","route_no":"12P289 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Exposition Blvd to Queensland St-Overland Ave to Sepulveda Blvd","cd":"5","route_no":"12P290 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Exposition Blvd to Queensland St-Overland Ave to Sepulveda Blvd","cd":"5","route_no":"12P290 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Pico Blvd to Cresta Dr-Canfield Ave to Peg Pl","cd":"5","route_no":"12P348 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Pico Blvd to Cresta Dr-Canfield Ave to Peg Pl","cd":"5","route_no":"12P348 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Pico Blvd to Richland Ave-Patricia Ave to Military Ave","cd":"5","route_no":"12P349 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Pico Blvd to Richland Ave-Patricia Ave to Military Ave","cd":"5","route_no":"12P349 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Pico Bl to Venice Bl- Sawtelle to Inglewood Bl-Various ","cd":"11","route_no":"12P350 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Pico Bl to Venice Bl- Sawtelle to Inglewood Bl-Various ","cd":"11","route_no":"12P350 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Santa Monica City Limits to Palms Blvd-Penmar Ave to Lincoln Bl","cd":"11","route_no":"12P351 Th","time_end":"3:00 PM","time_start":"1:00 PM"}
+,{"boundaries":"Santa Monica City Limits to Palms Blvd-Penmar Ave to Lincoln Bl","cd":"11","route_no":"12P351 W","time_end":"3:00 PM","time_start":"1:00 PM"}
+,{"boundaries":"N. Venice Blvd to Washington St-Abbot Kinney Blvd to Pacific Ave","cd":"11","route_no":"12P352 M","time_end":"10:30 AM","time_start":"8:30 AM"}
+,{"boundaries":"N. Venice Blvd to Washington St-Abbot Kinney Blvd to Pacific Ave","cd":"11","route_no":"12P352 Tu","time_end":"10:30 AM","time_start":"8:30 AM"}
+,{"boundaries":"S. Venice Blvd to Pacific Ave-Ocean Front Walk to Marine St","cd":"11","route_no":"12P353 M","time_end":"1:00 PM","time_start":"11:00 AM"}
+,{"boundaries":"S. Venice Blvd to Pacific Ave-Ocean Front Walk to Marine St","cd":"11","route_no":"12P353 Tu","time_end":"1:00 PM","time_start":"11:00 AM"}
+,{"boundaries":"Marine St to Venice Blvd-Lincoln Blvd to Pacific Ave","cd":"11","route_no":"12P354 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Marine St to Venice Blvd-Lincoln Blvd to Pacific Ave","cd":"11","route_no":"12P354 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Washington St to Via Marina-Via Mar to Ocean Front Walk","cd":"11","route_no":"12P355 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Washington St to Via Marina-Via Mar to Ocean Front Walk","cd":"11","route_no":"12P355 Tu","time_end":"12:00 pm","time_start":"10:00 AM"}
+,{"boundaries":"N. Venice Blvd to Washington St-Abbot Kinney Blvd to Speedway","cd":"11","route_no":"12P356 M","time_end":"9:30 AM","time_start":"7:30 AM"}
+,{"boundaries":"N. Venice Blvd to Washington St-Abbot Kinney Blvd to Speedway","cd":"11","route_no":"12P356 Tu","time_end":"9:30 AM","time_start":"7:30 AM"}
+,{"boundaries":"Pico Bl to National Bl- San Diego Fwy to Bundy","cd":"11","route_no":"12P401 M","time_end":"11:30 AM","time_start":"8:00 AM"}
+,{"boundaries":"Pico Bl to National Bl- San Diego Fwy to Bundy","cd":"11","route_no":"12P401 Tu","time_end":"11:30 AM","time_start":"8:00 AM"}
+,{"boundaries":"Exposition bl.- pico bl. To wilshire bl.to nebraska/barrington av. To carmelina- bundy dr. to centinela","cd":"11","route_no":"13P115 F","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Exposition bl.- pico bl. To wilshire bl.to nebraska/barrington av. To carmelina- bundy dr. to centinela","cd":"11","route_no":"13P115 Th","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"WILSHIRE BL. TO IOWA AV./ SAN DIEG FRWY TO BUNDY DR.","cd":"11","route_no":"13P116 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"WILSHIRE BL. TO IOWA AV./ SAN DIEG FRWY TO BUNDY DR.","cd":"11","route_no":"13P116 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"SANTA MONICA BL. TO OLYMPIC BL. / SAN DIEGO FRWY. TO FEDERAL AV.","cd":"11","route_no":"13P117 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"SANTA MONICA BL. TO OLYMPIC BL. / SAN DIEGO FRWY. TO FEDERAL AV.","cd":"11","route_no":"13P117 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"SANTA MONICA BL. TO OLYMPIC BL. / FEDERAL AV. TO BUNDY DR.","cd":"11","route_no":"13P118 F","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"SANTA MONICA BL. TO OLYMPIC BL. / FEDERAL AV. TO BUNDY DR.","cd":"11","route_no":"13P118 Th","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"SAN VICENTE BL. TO WILSHIRE BL. / SAN VICENTE BL. TO BUNDY DR.","cd":"11","route_no":"13P133 F","time_end":"12:00 PM","time_start":"9:00 AM"}
+,{"boundaries":"SAN VICENTE BL. TO WILSHIRE BL. / SAN VICENTE BL. TO BUNDY DR.","cd":"11","route_no":"13P133 Th","time_end":"12:00 PM","time_start":"9:00 AM"}
+,{"boundaries":"SUNSET BL. TO SAN VICENTE AV. / BRINGHAM AV. TO WESTGATE AV.","cd":"11","route_no":"13P282 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"SUNSET BL. TO SAN VICENTE AV. / BRINGHAM AV. TO WESTGATE AV.","cd":"11","route_no":"13P282 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"MONTANA AV. TO WILSHIRE BL. / BUNDY DR. TO CARMELINA AV.","cd":"11","route_no":"13P286 F","time_end":"12:00 PM","time_start":"9:00 AM"}
+,{"boundaries":"MONTANA AV. TO WILSHIRE BL. / BUNDY DR. TO CARMELINA AV.","cd":"11","route_no":"13P286 Th","time_end":"12:00 PM","time_start":"9:00 AM"}
+,{"boundaries":"Sunset Bl. to LeConte Av. / Hilgard Av. to Sepulveda Bl.","cd":"5","route_no":"14P101 F","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Sunset Bl. to LeConte Av. / Hilgard Av. to Sepulveda Bl.","cd":"5","route_no":"14P101 Th","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Lindbrook Dr. to Santa Monica Bl. / Selby Av. to Westwood Bl.","cd":"5","route_no":"14P198 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Lindbrook Dr. to Santa Monica Bl. / Selby Av. to Westwood Bl.","cd":"5","route_no":"14P198 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Santa Monica Bl. to Olympic Bl. / Westwood Bl. to Sepulveda Bl.","cd":"5","route_no":"14P199 F","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Santa Monica Bl. to Olympic Bl. / Westwood Bl. to Sepulveda Bl.","cd":"5","route_no":"14P199 Th","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Santa Monica Bl. to Olympic Bl. / Parnell Av. to Westwood Bl.","cd":"5","route_no":"14P200 F","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Santa Monica Bl. to Olympic Bl. / Parnell Av. to Westwood Bl.","cd":"5","route_no":"14P200 Th","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Olympic Bl. to Pico Bl. / Fox Hills Dr. to Sepulveda Bl.","cd":"5","route_no":"14P201 F","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Olympic Bl. to Pico Bl. / Fox Hills Dr. to Sepulveda Bl.","cd":"5","route_no":"14P201 Th","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Westwood Bl. to Cotner Av. / Santa Monica Bl. to Wilshire Bl.","cd":"5","route_no":"14P202 F","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Westwood Bl. to Cotner Av. / Santa Monica Bl. to Wilshire Bl.","cd":"5","route_no":"14P202 Th","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Santa Monica Bl. to Olympic Bl. / Fox Hills Dr. to Parnell Av.","cd":"5","route_no":"14P203 F","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Santa Monica Bl. to Olympic Bl. / Fox Hills Dr. to Parnell Av.","cd":"5","route_no":"14P203 Th","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Lindbrook Dr. to Rochester Av. / Club View Dr. to Selby Av.","cd":"5","route_no":"14P283 F","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Lindbrook Dr. to Rochester Av. / Club View Dr. to Selby Av.","cd":"5","route_no":"14P283 Th","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Rochester Av. to Santa Monica Bl. / Comstock Av. to Manning Av.","cd":"5","route_no":"14P357 F","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Rochester Av. to Santa Monica Bl. / Comstock Av. to Manning Av.","cd":"5","route_no":"14P357 Th","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"VENTURA BL. TO VALLEY VISTA BL. / SAN DIEGO FRWY TO BALBOA BL.","cd":"5","route_no":"15P191 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"VENTURA BL. TO VALLEY VISTA BL. / SAN DIEGO FRWY TO BALBOA BL.","cd":"5","route_no":"15P191 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"BURBANK BL. TO RANCHO ST. / BALBOA BL. TO YOLANDA AV.","cd":"3","route_no":"15P194 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"BURBANK BL. TO RANCHO ST. / BALBOA BL. TO YOLANDA AV.","cd":"5","route_no":"15P194 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"VENTURA BL. TO WELLS DR. / CANOGA AV. TO PENFIELD AV.","cd":"3","route_no":"15P298 F","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"VENTURA BL. TO WELLS DR. / CANOGA AV. TO PENFIELD AV.","cd":"3","route_no":"15P298 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"VENTURA BL. TO AVE. SAN LUIS / ABBEYVILLE AV. TO DON PIO DR.","cd":"3","route_no":"15P299 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"VENTURA BL. TO AVE. SAN LUIS / ABBEYVILLE AV. TO DON PIO DR.","cd":"3","route_no":"15P299 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Hoover st to Shatto Pl- 1st to 6th st","cd":"13","route_no":"4P108 M","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Ventura Bl. to Valley Vista St. / Van Nuys Bl. to Sepulveda Bl.","cd":"4","route_no":"16P194 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Ventura Bl. to Valley Vista St. / Van Nuys Bl. to Sepulveda Bl.","cd":"4","route_no":"16P194 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Ventura Fwy to Ventura Bl. / Van Nuys Bl. to Sepulveda Bl.","cd":"4","route_no":"16P195 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Ventura Fwy to Ventura Bl. / Van Nuys Bl. to Sepulveda Bl.","cd":"4","route_no":"16P195 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Ventura Bl. to Milaca Pl. / Woodman Av. to Van Nuys Bl.","cd":"4","route_no":"16P196 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Ventura Bl. to Milaca Pl. / Woodman Av. to Van Nuys Bl.","cd":"4","route_no":"16P196 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Ventura Fwy to Valley Vista Bl. / Coldwater Cyn. Av. to Woodman Av.","cd":"4","route_no":"16P197 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Ventura Fwy to Valley Vista Bl. / Coldwater Cyn. Av. to Woodman Av.","cd":"4","route_no":"16P197 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Ventura Fwy. To Maxwellton Rd. / Radford Av. to Coldwater Cyn Av.","cd":"2/4","route_no":"16P198 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Ventura Fwy. To Maxwellton Rd. / Radford Av. to Coldwater Cyn Av.","cd":"2/4","route_no":"16P198 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Ventura Fwy to Ventura Bl. / Burbank City limits to Vineland Av.","cd":"2/4","route_no":"16P297 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Ventura Fwy to Ventura Bl. / Burbank City limits to Vineland Av.","cd":"2/4","route_no":"16P297 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Aqua Vista St.to Regal Pl. / Hollywood Way to Tujunga Av.","cd":"2/4","route_no":"16P358 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Aqua Vista St.to Regal Pl. / Hollywood Way to Tujunga Av.","cd":"2/4","route_no":"16P358 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Laurel Cyn. Bl. / Saticoy St to Runnymede St.","cd":"6","route_no":"17NP100","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"Sherman Way to Victory Bl. / Clybourn Av. to Lankershim Bl.","cd":"2","route_no":"17P192 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Sherman Way to Victory Bl. / Clybourn Av. to Lankershim Bl.","cd":"2","route_no":"17P192 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Sherman Way to Chandler Bl. / Rhodes Av. to Fulton Av.","cd":"2/4","route_no":"17P193 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Sherman Way to Chandler Bl. / Rhodes Av. to Fulton Av.","cd":"2/4","route_no":"17P193 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Chandler Bl. to Ventura Bl. / Ledge Av. to Vineland Av.","cd":"2/4","route_no":"17P290 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Chandler Bl. to Ventura Bl. / Ledge Av. to Vineland Av.","cd":"2/4","route_no":"17P290 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"5 Fwy to Sherman Way / Hollywood Way to Lankershim Bl.","cd":"2/4/6","route_no":"17P291 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"5 Fwy to Sherman Way / Hollywood Way to Lankershim Bl.","cd":"2/4/6","route_no":"17P291 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Sherman Way to Chandler Bl. / Hazelhurst Pl. to Laurel Grove Av.","cd":"2","route_no":"17P292 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Sherman Way to Chandler Bl. / Hazelhurst Pl. to Laurel Grove Av.","cd":"2","route_no":"17P292 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Erwin St. to Chandler Bl. / Cahuenga Bl. to Lankershim Bl.","cd":"2","route_no":"17P293 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Erwin St. to Chandler Bl. / Cahuenga Bl. to Lankershim Bl.","cd":"2","route_no":"17P293 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Magnolia Bl. to Riverside Dr. / Lankershim Bl. to 170 Fwy","cd":"2","route_no":"17P294A F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Magnolia Bl. to Riverside Dr. / Lankershim Bl. to 170 Fwy","cd":"2","route_no":"17P294A Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Chandler Bl. to Riverside Dr. / Lankershim Bl. to Colfax Av.","cd":"2","route_no":"17P294B F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Chandler Bl. to Riverside Dr. / Lankershim Bl. to Colfax Av.","cd":"2","route_no":"17P294B Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Burbank Bl. to Ventura Fwy / Colfax Av. to Whitsett Av.","cd":"2","route_no":"17P295 F","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Burbank Bl. to Ventura Fwy / Colfax Av. to Whitsett Av.","cd":"2","route_no":"17P295 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"San Fernando Rd. to Sherman Way / Lankershim Bl. to Whitsett Av.","cd":"2/6","route_no":"17P305 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"San Fernando Rd. to Sherman Way / Lankershim Bl. to Whitsett Av.","cd":"2/6","route_no":"17P305 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Oxnard St. to Chandler Bl. / Colfax Av. to Laurel Cyn. Bl.","cd":"2","route_no":"17P306 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Oxnard St. to Chandler Bl. / Colfax Av. to Laurel Cyn. Bl.","cd":"2","route_no":"17P306 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Oxnard St. to Burbank Bl. / Lankershim Bl. to Colfax Av.","cd":"2","route_no":"17P307 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Oxnard St. to Burbank Bl. / Lankershim Bl. to Colfax Av.","cd":"2","route_no":"17P307 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Strathern St. to Saticoy St. / Vineland Av. to Tujunga Av.","cd":"6","route_no":"17P401 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Strathern St. to Saticoy St. / Vineland Av. to Tujunga Av.","cd":"6","route_no":"17P401 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"San Fernando Rd. to Saticoy St. / Tujunga Av. to Lankershim Bl.","cd":"6","route_no":"17P402 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"San Fernando Rd. to Saticoy St. / Tujunga Av. to Lankershim Bl.","cd":"6","route_no":"17P402 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Strathern St. to Saticoy St / Lankershim Bl. to Laurel Cyn. Bl.","cd":"6","route_no":"17P403 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Strathern St. to Saticoy St / Lankershim Bl. to Laurel Cyn. Bl.","cd":"6","route_no":"17P403 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Saticoy St. to Sherman Way / Vineland Av. to Tujunga AV.","cd":"2","route_no":"17P404 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Saticoy St. to Sherman Way / Vineland Av. to Tujunga AV.","cd":"2","route_no":"17P404 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Saticoy St. to Sherman Way /Tujunga Av. to Lankershim Bl.","cd":"2","route_no":"17P405 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Saticoy St. to Sherman Way /Tujunga Av. to Lankershim Bl.","cd":"2","route_no":"17P405 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Saticoy St. to Sherman Way / Lankershim Bl. to Laurel Cyn. Bl.","cd":"2","route_no":"17P406 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Saticoy St. to Sherman Way / Lankershim Bl. to Laurel Cyn. Bl.","cd":"2","route_no":"17P406 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Sherman Way to Kittridge St. / Fair Av. to Laurel Cny. Bl.","cd":"2","route_no":"17P407 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Sherman Way to Kittridge St. / Fair Av. to Laurel Cny. Bl.","cd":"2","route_no":"17P407 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"San Fernando Rd. to Beachy Av. / Brandford St. to Sheldon St.","cd":"6","route_no":"18P300 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"San Fernando Rd. to Beachy Av. / Brandford St. to Sheldon St.","cd":"6","route_no":"18P300 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"City Line to Foothill Bl. / Little Tujunga Rd. to Van Nuys Bl.","cd":"7","route_no":"18P404 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"City Line to Foothill Bl. / Little Tujunga Rd. to Van Nuys Bl.","cd":"7","route_no":"18P404 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Glenoaks Bl. to San Fernando Rd. / Ledge Av. to Tuxford St.","cd":"2/6","route_no":"18P406 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Glenoaks Bl. to San Fernando Rd. / Ledge Av. to Tuxford St.","cd":"2/6","route_no":"18P406 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Plainview Av. to Mount Gleason Av. / Ellenbogen St. to Summitrose St.","cd":"7","route_no":"18P407 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Plainview Av. to Mount Gleason Av. / Ellenbogen St. to Summitrose St.","cd":"7","route_no":"18P407 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Mount Gleason Av. to Woodward Av. / Ellenbogen St. Foothill Bl.","cd":"7","route_no":"18P408 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Mount Gleason Av. to Woodward Av. / Ellenbogen St. Foothill Bl.","cd":"7","route_no":"18P408 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Woodward Av. to McVine Av. / Ellenbogen St. to Foothill Bl.","cd":"7","route_no":"18P409 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Woodward Av. to McVine Av. / Ellenbogen St. to Foothill Bl.","cd":"7","route_no":"18P409 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Eldridge St. / Hubbard St. to Harding St.","cd":"7","route_no":"19NP300","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"San Fernando Mission Bl. to Paxton St. / 5 Fwy to Columbus Av.","cd":"7","route_no":"19P362 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"San Fernando Mission Bl. to Paxton St. / 5 Fwy to Columbus Av.","cd":"7","route_no":"19P362 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Bledsoe St. to Osbourne St. / Laurel Cyn Bl. to Foothill Bl.","cd":"7","route_no":"19P363 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Bledsoe St. to Osbourne St. / Laurel Cyn Bl. to Foothill Bl.","cd":"7","route_no":"19P363 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Astoria St. to Rinaldi St. / San Fernando Rd. 405 Fwy","cd":"7","route_no":"19P400 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Astoria St. to Rinaldi St. / San Fernando Rd. 405 Fwy","cd":"7","route_no":"19P400 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Roxford St. to Oro Grande / San Fernando Rd. to Encinitas Av.","cd":"7","route_no":"19P402 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Roxford St. to Oro Grande / San Fernando Rd. to Encinitas Av.","cd":"7","route_no":"19P402 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Dronfield Av. Glenoaks Bl. / Hubbard St. to Tyler St.","cd":"7","route_no":"19P406 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Dronfield Av. Glenoaks Bl. / Hubbard St. to Tyler St.","cd":"7","route_no":"19P406 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Hubbard St. to Pacoima Wash / Eldridge Av. to City Line","cd":"7","route_no":"19P408 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Hubbard St. to Pacoima Wash / Eldridge Av. to City Line","cd":"7","route_no":"19P408 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Terra Bella St. to Osborne St. / 5 Fwy. To Woodman Av.","cd":"6","route_no":"19P410 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Terra Bella St. to Osborne St. / 5 Fwy. To Woodman Av.","cd":"6","route_no":"19P410 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"5 Fwy. To Woodman Av. / Terra Bella St. to Filmore St.","cd":"6","route_no":"19P412 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"5 Fwy. To Woodman Av. / Terra Bella St. to Filmore St.","cd":"6","route_no":"19P412 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"San Fernando Rd. to 5 Fwy. / Van Nuys Bl. Paxton St.","cd":"5","route_no":"19P418 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"San Fernando Rd. to 5 Fwy. / Van Nuys Bl. Paxton St.","cd":"5","route_no":"19P418 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Fox St. to 118 Fwy / San Fernando Rd. to 5 Fwy.","cd":"7","route_no":"19P420 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Fox St. to 118 Fwy / San Fernando Rd. to 5 Fwy.","cd":"7","route_no":"19P420 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Brand Bl. to Chamberlain St. / O'Melveny Av. to 5 Fwy","cd":"7","route_no":"19P422 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Brand Bl. to Chamberlain St. / O'Melveny Av. to 5 Fwy","cd":"7","route_no":"19P422 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Van Nuys Bl. to Osborne St. / Foothill Bl. to San Fernando Rd.","cd":"7","route_no":"19P424 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Van Nuys Bl. to Osborne St. / Foothill Bl. to San Fernando Rd.","cd":"7","route_no":"19P424 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"118 Fwy to Van Nuys Bl. / Foothill Bl. to San Fernando Rd.","cd":"7","route_no":"19P426 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"118 Fwy to Van Nuys Bl. / Foothill Bl. to San Fernando Rd.","cd":"7","route_no":"19P426 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"LA city line to Paxton St. / Foothill Bl. to San Fernando Rd.","cd":"7","route_no":"19P428 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"LA city line to Paxton St. / Foothill Bl. to San Fernando Rd.","cd":"7","route_no":"19P428 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Gladstone Av. to Simshaw Av. / Hubbard St. to Sayre St.","cd":"7","route_no":"19P430 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Gladstone Av. to Simshaw Av. / Hubbard St. to Sayre St.","cd":"7","route_no":"19P430 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"PCH to 22nd st-Gaffey St to Avalon BL","cd":"15","route_no":"1NP350 Th","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"PCH to 22nd st-Gaffey St to Avalon BL","cd":"15","route_no":"1NP350 W","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"Gaffey St from Oliver St to 19th st","cd":"15","route_no":"1NP351 Th","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"Gaffey St from Oliver St to 19th st","cd":"15","route_no":"1NP351 W","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"10th st to 22nd st PCH to Gaffey St","cd":"15","route_no":"1P207 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"10th st to 22nd st PCH to Gaffey St","cd":"15","route_no":"1P207 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"8th st to 22nd st Beacon St to Pacific Ave","cd":"15","route_no":"1P208 M","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"8th st to 22nd st Beacon St to Pacific Ave","cd":"15","route_no":"1P208 Tu","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Wilmington Bl to Avalon Bl- PCH  to Anahiem St","cd":"15","route_no":"1P212 M","time_end":"12:00 PM","time_start":"9:00 AM"}
+,{"boundaries":"Wilmington Bl to Avalon Bl- PCH  to Anahiem St","cd":"15","route_no":"1P212 Tu","time_end":"12:00 PM","time_start":"9:00 AM"}
+,{"boundaries":"Belle Porte Ave to Vermont Ave- lomita Bl to PCH","cd":"15","route_no":"1P216 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Belle Porte Ave to Vermont Ave- lomita Bl to PCH","cd":"15","route_no":"1P216 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Sandison St to PCH- Drumm Ave  D/E W/O Sanford Ave","cd":"15","route_no":"1P363 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Sandison St to PCH- Drumm Ave  D/E W/O Sanford Ave","cd":"15","route_no":"1P363 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Carson City Line to Harry Bridge Bl- Avalon Bl to Figueroa Pl","cd":"15","route_no":"1P364 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Carson City Line to Harry Bridge Bl- Avalon Bl to Figueroa Pl","cd":"15","route_no":"1P364 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Lomita Bl to PCH- Avalon Bl to Wilmington Bl","cd":"15","route_no":"1P365 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Lomita Bl to PCH- Avalon Bl to Wilmington Bl","cd":"15","route_no":"1P365 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Nordhoff St. to Lanark St. / Noble Av. to Orion Av.","cd":"6/7","route_no":"20P215 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Nordhoff St. to Lanark St. / Noble Av. to Orion Av.","cd":"6/7","route_no":"20P215 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Cantara St. to Sherman Way / Ventura Cyn. To Van Nuys Bl.","cd":"2/6","route_no":"20P216A F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Cantara St. to Sherman Way / Ventura Cyn. To Van Nuys Bl.","cd":"2/6","route_no":"20P216A M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Sherman Way to Victory Bl. / Fulton Av. to Van Nuys Bl.","cd":"2/6","route_no":"20P216B F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Sherman Way to Victory Bl. / Fulton Av. to Van Nuys Bl.","cd":"2/6","route_no":"20P216B M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Victory Bl. Ventura Fwy. / Tyrone Av. to Coldwater Cyn.","cd":"2/6","route_no":"20P301 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Victory Bl. Ventura Fwy. / Tyrone Av. to Coldwater Cyn.","cd":"2/6","route_no":"20P301 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Oxnard St. to Camarillo St. / Matilija Av. to Sepulveda Bl.","cd":"4/6","route_no":"20P302 F","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Oxnard St. to Camarillo St. / Matilija Av. to Sepulveda Bl.","cd":"4/6","route_no":"20P302 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Oxnard St. to Burbank Bl. / Woodman Av. to Hazeltine Av.","cd":"4/6","route_no":"20P303 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Oxnard St. to Burbank Bl. / Woodman Av. to Hazeltine Av.","cd":"46","route_no":"20P303 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Arleta Av. to Raymer St. / Van Nuys Bl. to Noble Av.","cd":"2/6","route_no":"20P360 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Arleta Av. to Raymer St. / Van Nuys Bl. to Noble Av.","cd":"2/6","route_no":"20P360 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Marson St. to Sylvan St. / Van Nuys Bl to 405 Fwy.","cd":"6","route_no":"20P361 F","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Marson St. to Sylvan St. / Van Nuys Bl to 405 Fwy.","cd":"6","route_no":"20P361 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Sepulveda Bl. to 405 Fwy. / Sherman Way to Victory Bl.","cd":"6","route_no":"20P362 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Sepulveda Bl. to 405 Fwy. / Sherman Way to Victory Bl.","cd":"6","route_no":"20P362 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Victory Bl. to Sherman Way / Kester Av. to Sepulveda Bl.","cd":"6","route_no":"20P363 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Victory Bl. to Sherman Way / Kester Av. to Sepulveda Bl.","cd":"6","route_no":"20P363 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Sherman Way to Vanowen St. / Van Nuys Bl. to Kester Av.","cd":"6","route_no":"20P364 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Sherman Way to Vanowen St. / Van Nuys Bl. to Kester Av.","cd":"6","route_no":"20P364 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Vanowen St. to Victory Bl. / Van Nuys Bl. to Kester Av.","cd":"6","route_no":"20P365 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Vanowen St. to Victory Bl. / Van Nuys Bl. to Kester Av.","cd":"6","route_no":"20P365 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Sherman Way to Vanowen St. / Woodman Av. to Hazeltine Avv.","cd":"2","route_no":"20P366 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Sherman Way to Vanowen St. / Woodman Av. to Hazeltine Avv.","cd":"2","route_no":"20P366 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Sherman Way to Vanowen St. / Hazeltine Av. to Van Nuys Bl.","cd":"6","route_no":"20P367  M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Sherman Way to Vanowen St. / Hazeltine Av. to Van Nuys Bl.","cd":"6","route_no":"20P367 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Vanowen St to Victory Bl. / Hazeltine Av. to Van Nuys Bl.","cd":"6","route_no":"20P368 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Vanowen St to Victory Bl. / Hazeltine Av. to Van Nuys Bl.","cd":"6","route_no":"20P368 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Victory Bl. to Oxnard St. / Hazeltine Av. to Van Nuys Bl.","cd":"6","route_no":"20P369 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Victory Bl. to Oxnard St. / Hazeltine Av. to Van Nuys Bl.","cd":"6","route_no":"20P369 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Victory Bl. to Oxnard St. / Van Nuys Bl. to Kester Av.","cd":"6","route_no":"20P370 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Victory Bl. to Oxnard St. / Van Nuys Bl. to Kester Av.","cd":"6","route_no":"20P370 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Victory Bl. to Oxnard St. / Kester Av. to 405 Fwy.","cd":"6","route_no":"20P371 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Victory Bl. to Oxnard St. / Kester Av. to 405 Fwy.","cd":"6","route_no":"20P371 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Oxnard St. to Burbank Bl. / Hazeltine Av. to Van Nuys Bl.","cd":"4","route_no":"20P372 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Oxnard St. to Burbank Bl. / Hazeltine Av. to Van Nuys Bl.","cd":"4","route_no":"20P372 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Burbank Bl. to Magnolia Bl. / Hazeltine Av. to Van Nuys Bl.","cd":"4","route_no":"20P373 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Burbank Bl. to Magnolia Bl. / Hazeltine Av. to Van Nuys Bl.","cd":"4","route_no":"20P373 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Oxnard St. to Burbank Bl. / Van Nuys Bl to Kester AV.","cd":"4","route_no":"20P374 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Oxnard St. to Burbank Bl. / Van Nuys Bl to Kester AV.","cd":"4","route_no":"20P374 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Burbank Bl. to Magnolia Bl. / Van Nuys Bl. to Kester Av.","cd":"4","route_no":"20P375 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Burbank Bl. to Magnolia Bl. / Van Nuys Bl. to Kester Av.","cd":"4","route_no":"20P375 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Oxnard St. to Burbank Bl. / Kester Av. to Sepulveda Bl.","cd":"4","route_no":"20P376 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Oxnard St. to Burbank Bl. / Kester Av. to Sepulveda Bl.","cd":"4","route_no":"20P376 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Burbank Bl. to Magnolia Bl. / Kester Av. to Sepulveda Bl.","cd":"4","route_no":"20P377 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Burbank Bl. to Magnolia Bl. / Kester Av. to Sepulveda Bl.","cd":"4","route_no":"20P377 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"WILBUR AV./ ETIWANDA AV. TO BALBOA AV. / VICTORY BL. TO BURBANK BL.","cd":"3","route_no":"21P189 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"WILBUR AV./ ETIWANDA AV. TO BALBOA AV. / VICTORY BL. TO BURBANK BL.","cd":"3","route_no":"21P189 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"OXNARD ST. TO VENTURA FRWY./ WHITE OAK AV. TO ETIWANDA AV.","cd":"3/5","route_no":"21P190 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"OXNARD ST. TO VENTURA FRWY./ WHITE OAK AV. TO ETIWANDA AV.","cd":"3/5","route_no":"21P190 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"OXNARD ST TO BURBANK BL ./  LOUISE AV. TO WHITE OAK AV.","cd":"5","route_no":"21P191 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"OXNARD ST TO BURBANK BL ./  LOUISE AV. TO WHITE OAK AV.","cd":"5","route_no":"21P191 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"OXNARD ST TO BURBANK BL ./ WISH AV. TO LOUISE AV.","cd":"5","route_no":"21P192 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"OXNARD ST TO BURBANK BL ./ WISH AV. TO LOUISE AV.","cd":"5","route_no":"21P192 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"HASKEL AV. TO LINDLEY AV./SATICOY ST. TO VICTORY BL.","cd":"3/6","route_no":"21P300 F","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"HASKEL AV. TO LINDLEY AV./SATICOY ST. TO VICTORY BL.","cd":"3/6","route_no":"21P300 M","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"VANOWEN ST TO VICTORY BL./WOODLEY AV. TO SAN DIEGO FRWY.","cd":"3/6","route_no":"21P301 F","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"VANOWEN ST TO VICTORY BL./WOODLEY AV. TO SAN DIEGO FRWY.","cd":"3/6","route_no":"21P301 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"WYANDOTE ST. TO VICTORY BL./YOLANDA AV. TO CORBIN AV.","cd":"3","route_no":"21P359 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"WYANDOTE ST. TO VICTORY BL./YOLANDA AV. TO CORBIN AV.","cd":"3","route_no":"21P359 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"ROSCOE BL. TO VICTORY BL./LINDLEY AV. TO WILBUR AV.","cd":"3","route_no":"21P360 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"ROSCOE BL. TO VICTORY BL./LINDLEY AV. TO WILBUR AV.","cd":"3","route_no":"21P360 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"RINALDI ST. TO ROSCOE BL./HASKEL AV. TO BALBOA BL.","cd":"12","route_no":"22P188 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"RINALDI ST. TO ROSCOE BL./HASKEL AV. TO BALBOA BL.","cd":"12","route_no":"22P188 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Los Alimos to Plummer st./Balboa av. To Lindley av.","cd":"12","route_no":"22P189 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Los Alimos to Plummer st./Balboa av. To Lindley av.","cd":"12","route_no":"22P189 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Rinaldi st. to Sqn Fernando Mission bl./Sepulveda bl. To Haskel av.","cd":"12","route_no":"22P190 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Rinaldi st. to Sqn Fernando Mission bl./Sepulveda bl. To Haskel av.","cd":"12","route_no":"22P190 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Rinaldi st. to San Fernando Mission bl./Balboa bl. To Louise av.","cd":"12","route_no":"22P192 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Rinaldi st. to San Fernando Mission bl./Balboa bl. To Louise av.","cd":"12","route_no":"22P192 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"San Fernando Mission Bl. To Chatsworth st./Sepulveda bl. To Haskel av.","cd":"12","route_no":"22P193 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"San Fernando Mission Bl. To Chatsworth st./Sepulveda bl. To Haskel av.","cd":"12","route_no":"22P193 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"San Fernando Mission bl. To Chatsworth st. / Haskel av. To Woodley av.","cd":"12","route_no":"22P194 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"San Fernando Mission bl. To Chatsworth st. / Haskel av. To Woodley av.","cd":"12","route_no":"22P194 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"San Fernando Mission bl. To Chatsworth st. / Woodley av. To Hayvenhurst av.","cd":"12","route_no":"22P195 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"San Fernando Mission bl. To Chatsworth st. / Woodley av. To Hayvenhurst av.","cd":"12","route_no":"22P195 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Chatsworth st. to devonshire st./Sepulveda bl. To Haskel av.","cd":"12","route_no":"22P196 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Chatsworth st. to devonshire st./Sepulveda bl. To Haskel av.","cd":"12","route_no":"22P196 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Chatsworth st. to Devonshire st./Haskel av. To Woodley av.","cd":"12","route_no":"22P197 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Chatsworth st. to Devonshire st./Haskel av. To Woodley av.","cd":"12","route_no":"22P197 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Chatsworth st. to Devonshire st./Woodley av. To Hayvenhurst","cd":"12","route_no":"22P198 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Chatsworth st. to Devonshire st./Woodley av. To Hayvenhurst","cd":"12","route_no":"22P198 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Devonshire st. to Lassen st. / Sepulveda bl. To Haskel av.","cd":"12","route_no":"22P199 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Devonshire st. to Lassen st. / Sepulveda bl. To Haskel av.","cd":"12","route_no":"22P199 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Devonshire st. to Lassen st. / Woodley av. To Hayvenhurst av.","cd":"12","route_no":"22P200 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Devonshire st. to Lassen st. / Woodley av. To Hayvenhurst av.","cd":"12","route_no":"22P200 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Devonshire st. to Lassen st. / Woodley av. To Hayvenhurst av.","cd":"12","route_no":"22P201 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Devonshire st. to Lassen st. / Woodley av. To Hayvenhurst av.","cd":"12","route_no":"22P201 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Chatsworth st. to devonshire st. / Hayvenhurst av. To Balboa bl.","cd":"12","route_no":"22P203 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Chatsworth st. to devonshire st. / Hayvenhurst av. To Balboa bl.","cd":"12","route_no":"22P203 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"San Fernando Mission bl. To Chatsworth st./Hayvenhurst av. To Balboa bl.","cd":"12","route_no":"22P204 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"San Fernando Mission bl. To Chatsworth st./Hayvenhurst av. To Balboa bl.","cd":"12","route_no":"22P204 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Rinaldi st. to San Fernando Mission bl./Balboa bl. To Louise av.","cd":"12","route_no":"22P206 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Rinaldi st. to San Fernando Mission bl./Balboa bl. To Louise av.","cd":"12","route_no":"22P206 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"San Fernando Mission bl. To Chatsworth st./ Balboa bl. To Louise av.","cd":"12","route_no":"22P207 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"San Fernando Mission bl. To Chatsworth st./ Balboa bl. To Louise av.","cd":"12","route_no":"22P207 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Chatsworth st. to Devonshire st. / Balboa bl. To Louise av.","cd":"12","route_no":"22P208 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Chatsworth st. to Devonshire st. / Balboa bl. To Louise av.","cd":"12","route_no":"22P208 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"San Jose st. to Roscoe bl. / Oakdale av. To Topanga Canyon bl.","cd":"3","route_no":"23P187  Th","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Hoover st to Shatto Pl- 1st to 6th st","cd":"13","route_no":"4P108 Tu","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"San Jose st. to Roscoe bl. / Oakdale av. To Topanga Canyon bl.","cd":"3","route_no":"23P187 F","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Parthenia st. to Roscoe bl. / Mason av. To De Soto av.","cd":"3","route_no":"23P188 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Parthenia st. to Roscoe bl. / Mason av. To De Soto av.","cd":"3","route_no":"23P188 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Parthenia st. to Roscoe bl. / Lindley av. To Reseda bl.","cd":"3","route_no":"23P194 F","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Parthenia st. to Roscoe bl. / Lindley av. To Reseda bl.","cd":"3","route_no":"23P194 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Chatsworth st. to Roscoe bl. / Lindley av. To Tampa av.","cd":"3","route_no":"23P303 F","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Chatsworth st. to Roscoe bl. / Lindley av. To Tampa av.","cd":"3","route_no":"23P303 Th","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Saticoy st. To Deering av. / Winnetka av. To Variel av.","cd":"3","route_no":"24P190 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Saticoy st. To Deering av. / Winnetka av. To Variel av.","cd":"3","route_no":"24P190 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Vanowen st. to Ventura bl. / Topanga Canyon  bl. To Manton av.","cd":"3","route_no":"24P299 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Vanowen st. to Ventura bl. / Topanga Canyon  bl. To Manton av.","cd":"3","route_no":"24P299M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Saticoy St. to Sherman Way / Canoga av. To Topanga Canyon bl.","cd":"3","route_no":"24P300 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Saticoy St. to Sherman Way / Canoga av. To Topanga Canyon bl.","cd":"3","route_no":"24P300 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Roscoe bl. To Saticoy st. / Variel av. To Topanga Canyon Bl.","cd":"3","route_no":"24P301 Th","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Roscoe bl. To Saticoy st. / Variel av. To Topanga Canyon Bl.","cd":"3","route_no":"24P301 W","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Fallbrook av. / Roscoe bl. To Ventura Fwy. & Bigler st. Dunman av. To Abbyville av.","cd":"3/12","route_no":"24P302 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Fallbrook av. / Roscoe bl. To Ventura Fwy. & Bigler st. Dunman av. To Abbyville av.","cd":"3/12","route_no":"24P302 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Saticoy st. to Sherman Way / Topanga Canyon bl.","cd":"3","route_no":"24P303 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Saticoy st. to Sherman Way / Topanga Canyon bl.","cd":"3","route_no":"24P303 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Mason av. To De Soto av. / Saticoy st. to Sherman way","cd":"3","route_no":"24P304 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Mason av. To De Soto av. / Saticoy st. to Sherman way","cd":"3","route_no":"24P304 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Saticoy st. to Sherman way / De Soto av. To Canoga av.","cd":"3","route_no":"24P305 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Saticoy st. to Sherman way / De Soto av. To Canoga av.","cd":"3","route_no":"24P305 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Sherman way to Los Angelas River / De Soto av. To Deering av.","cd":"3","route_no":"24P307 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Sherman way to Los Angelas River / De Soto av. To Deering av.","cd":"3","route_no":"24P307 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Saticoy st. to Sherman way / Winnetka av. To Mason av.","cd":"3","route_no":"24P308 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Saticoy st. to Sherman way / Winnetka av. To Mason av.","cd":"3","route_no":"24P308 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Bassett av. To Sherman way / Canoga av. To Topanga Canyon bl.","cd":"3","route_no":"24P310 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Bassett av. To Sherman way / Canoga av. To Topanga Canyon bl.","cd":"3","route_no":"24P310 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Sherman way to Vanowen st. / Mason av. To De Soto av.","cd":"3","route_no":"24P311 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Sherman way to Vanowen st. / Mason av. To De Soto av.","cd":"3","route_no":"24P311 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Sherman way to Vanowen st. / Topanga Canyon Bl. To Shoup av.","cd":"3","route_no":"24P312 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Sherman way to Vanowen st. / Topanga Canyon Bl. To Shoup av.","cd":"3","route_no":"24P312 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Shoup av. To Fallbrook av. / Roscoe bl. To Saticoy st.","cd":"12","route_no":"24P313 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Shoup av. To Fallbrook av. / Roscoe bl. To Saticoy st.","cd":"12","route_no":"24P313 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Shoup av. To Fallbrook av. / Saticoy st. to Sherman way","cd":"12","route_no":"24P314 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Shoup av. To Fallbrook av. / Saticoy st. to Sherman way","cd":"12","route_no":"24P314 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Sherman way to Vanowen st. / Shoup av. To Fallbrook av.","cd":"12","route_no":"24P315 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Sherman way to Vanowen st. / Shoup av. To Fallbrook av.","cd":"12","route_no":"24P315 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Fallbrook av. To Woodlake av. / Roscoa bl. To Saticoy st.","cd":"12","route_no":"24P316 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Fallbrook av. To Woodlake av. / Roscoa bl. To Saticoy st.","cd":"12","route_no":"24P316 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Fallbrook av. To woodlake av. / saticoy st. to sherman way","cd":"12","route_no":"24P317 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Fallbrook av. To woodlake av. / saticoy st. to sherman way","cd":"12","route_no":"24P317 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"fallbrook av. To woodlake av. / sherman way to  vanowen st.","cd":"12","route_no":"24P318 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"fallbrook av. To woodlake av. / sherman way to  vanowen st.","cd":"12","route_no":"24P318 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"woodlake av. To el escorpion crk/schoolcraft st to vanowen st","cd":"12","route_no":"24P319 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"woodlake av. To el escorpion crk/schoolcraft st to vanowen st","cd":"12","route_no":"24P319 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"79th st to 85th st -Main st to 85th Pl","cd":"8","route_no":"2P124 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"79th st to 85th st -Main st to 85th Pl","cd":"8","route_no":"2P124 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"79th st to 85th st-Harbor Fwy to Vermont Ave","cd":"8","route_no":"2P125 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"79th st to 85th st-Harbor Fwy to Vermont Ave","cd":"8","route_no":"2P125 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"92nd St to 103rd St- Graham Ave to Cresus Ave","cd":"15","route_no":"2P134 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"92nd St to 103rd St- Graham Ave to Cresus Ave","cd":"15","route_no":"2P134 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"92nd St to 103rd st- Grandee Ave to Success Ave","cd":"15","route_no":"2P135 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"92nd St to 103rd st- Grandee Ave to Success Ave","cd":"15","route_no":"2P135 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"El Segundo Bl to Rosecran Ave- Hoover st to Vermont Ave","cd":"15","route_no":"2P206 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"El Segundo Bl to Rosecran Ave- Hoover st to Vermont Ave","cd":"15","route_no":"2P206 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"120th st to El Segundo Bl-Figueroa st City Limits to Vermont Ave","cd":"15","route_no":"2P207 F","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"120th st to El Segundo Bl-Figueroa st City Limits to Vermont Ave","cd":"15","route_no":"2P207 W","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Main St to Alvalon Bl- 79th st to Manchester Ave","cd":"8/15","route_no":"2P229 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Main St to Alvalon Bl- 79th st to Manchester Ave","cd":"8","route_no":"2P229 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"79th st to Manchester Ave- Central Ave to Avalon Bl","cd":"8","route_no":"2P230 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"79th st to Manchester Ave- Central Ave to Avalon Bl","cd":"8","route_no":"2P230 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Manchester Ave to 95th st-Avalon Bl to Main St","cd":"8","route_no":"2P231 M","time_end":"11:30 AM","time_start":"9:30 AM"}
+,{"boundaries":"Manchester Ave to 95th st-Avalon Bl to Main St","cd":"8","route_no":"2P231 Tu","time_end":"11:30 AM","time_start":"9:30 AM"}
+,{"boundaries":"Manchester Ave to 93rd St- Central Ave to Avalon Bl","cd":"8","route_no":"2P232 M","time_end":"2:30 PM","time_start":"12:00 PM"}
+,{"boundaries":"Manchester Ave to 93rd St- Central Ave to Avalon Bl","cd":"8","route_no":"2P232 Tu","time_end":"2:30 PM","time_start":"12:00 PM"}
+,{"boundaries":"98th st to 106th st- Central Ave to Avalon Bl","cd":"8","route_no":"2P233 M","time_end":"9:30 AM","time_start":"7:30 AM"}
+,{"boundaries":"98th st to 106th st- Central Ave to Avalon Bl","cd":"8","route_no":"2P233 Tu","time_end":"9:30 AM","time_start":"7:30 AM"}
+,{"boundaries":"Colden Ave to 91st St to 104th St- Main St to Figueroa St","cd":"8","route_no":"2P234 M","time_end":"2:30 PM","time_start":"12:00 PM"}
+,{"boundaries":"Colden Ave to 91st St to 104th St- Main St to Figueroa St","cd":"8","route_no":"2P234 Tu","time_end":"2:30 PM","time_start":"12:00 PM"}
+,{"boundaries":"93rd St to 98th st- Central Ave to Main St","cd":"8","route_no":"2P235 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"93rd St to 98th st- Central Ave to Main St","cd":"8","route_no":"2P235 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"9th St to 110th St - Avalon Bl to Main St","cd":"8","route_no":"2P236 M","time_end":"11:30 AM","time_start":"9:30 AM"}
+,{"boundaries":"9th St to 110th St - Avalon Bl to Main St","cd":"8","route_no":"2P236 Tu","time_end":"11:30 AM","time_start":"9:30 AM"}
+,{"boundaries":"103rd to 110th St- Comton Ave to Avalon BL","cd":"15","route_no":"2P237 Th","time_end":"9:30 AM","time_start":"7:30 AM"}
+,{"boundaries":"103rd to 110th St- Comton Ave to Avalon BL","cd":"15","route_no":"2P237 W","time_end":"9:30 AM","time_start":"7:30 AM"}
+,{"boundaries":"104th to Imperial Hwy- main st to Figueroa St","cd":"8","route_no":"2P238 Th","time_end":"2:30 PM","time_start":"12:00 PM"}
+,{"boundaries":"104th to Imperial Hwy- main st to Figueroa St","cd":"8","route_no":"2P238 W","time_end":"2:30 PM","time_start":"12:00 PM"}
+,{"boundaries":"Imperial Hwy to City Limits- Main St to Figueroa St","cd":"8","route_no":"2P239 Th","time_end":"11:30 AM","time_start":"9:30 AM"}
+,{"boundaries":"Imperial Hwy to City Limits- Main St to Figueroa St","cd":"8","route_no":"2P239 W","time_end":"11:30 AM","time_start":"9:30 AM"}
+,{"boundaries":"111th St to 120th st Avalon Bl to Main St","cd":"8","route_no":"2P240 Th","time_end":"9:30 AM","time_start":"7:30 AM"}
+,{"boundaries":"111th St to 120th st Avalon Bl to Main St","cd":"8","route_no":"2P240 W","time_end":"9:30 AM","time_start":"7:30 AM"}
+,{"boundaries":"Imperial Hwy to 120th st -Central Ave to Avalon Bl","cd":"8","route_no":"2P241 Th","time_end":"2:30 PM","time_start":"12:00 PM"}
+,{"boundaries":"Imperial Hwy to 120th st -Central Ave to Avalon Bl","cd":"8","route_no":"2P241 W","time_end":"2:30 PM","time_start":"12:00 PM"}
+,{"boundaries":"108 st to Imperial Hwy-Zamora Ave & Central Ave to Avalon BL","cd":"8","route_no":"2P242 Th","time_end":"11:30 AM","time_start":"9:30 AM"}
+,{"boundaries":"108 st to Imperial Hwy-Zamora Ave & Central Ave to Avalon BL","cd":"8","route_no":"2P242 W","time_end":"11:30 AM","time_start":"9:30 AM"}
+,{"boundaries":"104th St & 113th st to City BDY- Croesus Ave & Willowbrook Ave - Graham Ave to Compton","cd":"15","route_no":"2P243 Th","time_end":"2:30 PM","time_start":"12:00 PM"}
+,{"boundaries":"104th St & 113th st to City BDY- Croesus Ave & Willowbrook Ave - Graham Ave to Compton","cd":"15","route_no":"2P243 W","time_end":"2:30 PM","time_start":"12:00 PM"}
+,{"boundaries":"103rd st to Imperial Hwy-Mona Bl to Graham ave","cd":"15","route_no":"2P244 Th","time_end":"11:30 AM","time_start":"9:30 AM"}
+,{"boundaries":"103rd st to Imperial Hwy-Mona Bl to Graham ave","cd":"15","route_no":"2P244 W","time_end":"11:30 AM","time_start":"9:30 AM"}
+,{"boundaries":"103rd st to Santa Ana Bl- City BDY to Willmington Ave","cd":"15","route_no":"2P245 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"103rd st to Santa Ana Bl- City BDY to Willmington Ave","cd":"15","route_no":"2P245 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Manchester Ave & 85th st to Colden ave & 91st st -Main St to Figueroa","cd":"8","route_no":"2P246 M","time_end":"2:30 PM","time_start":"12:00 PM"}
+,{"boundaries":"Manchester Ave & 85th st to Colden ave & 91st st -Main St to Figueroa","cd":"8","route_no":"2P246 Tu","time_end":"2:30 PM","time_start":"12:00 PM"}
+,{"boundaries":"222 Street to 228th st - Normandie Ave to Western Ave","cd":"15","route_no":"2P247 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"222 Street to 228th st - Normandie Ave to Western Ave","cd":"15","route_no":"2P247 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Torrance Bl to Carson St- Normandie Ave to Western Ave","cd":"15","route_no":"2P248 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Torrance Bl to Carson St- Normandie Ave to Western Ave","cd":"15","route_no":"2P248 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"182nd St to 405fwy- Vermont Ave to Western Ave","cd":"15","route_no":"2P249 F","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"182nd St to 405fwy- Vermont Ave to Western Ave","cd":"15","route_no":"2P249 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Manchester Ave to Colden Ave -Figueroa St to Vermont Ave","cd":"8","route_no":"2P318 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Manchester Ave to Colden Ave -Figueroa St to Vermont Ave","cd":"8","route_no":"2P318 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"97th St to 106th st -Figueroa st to Vermont Ave","cd":"8","route_no":"2P319 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"97th St to 106th st -Figueroa st to Vermont Ave","cd":"8","route_no":"2P319 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"106th St to Imperial Hwy- Figueroa St to Vermont Ave","cd":"8","route_no":"2P320 M","time_end":"2:30 PM","time_start":"12:30 PM"}
+,{"boundaries":"106th St to Imperial Hwy- Figueroa St to Vermont Ave","cd":"8","route_no":"2P320 Tu","time_end":"2:30 PM","time_start":"12:30 PM"}
+,{"boundaries":"Jefferson BL to MLK BL- Main St to Figueroa Ave","cd":"9","route_no":"3NP246 F","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"Jefferson BL to MLK BL- Main St to Figueroa Ave","cd":"9","route_no":"3NP246 Th","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"Santa Monica Fwy to Adams Blvd- Main St to Harbor Fwy","cd":"9","route_no":"3NP248 Tu","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"Santa Monica Fwy to Adams Blvd- Main St to Harbor Fwy","cd":"9","route_no":"3NP248 W","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"Adams Blvd to Jefferson Blvd- Main St to Figueroa St","cd":"9","route_no":"3NP249 Tu","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"Adams Blvd to Jefferson Blvd- Main St to Figueroa St","cd":"9","route_no":"3NP249 W","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"Washingon Blvd to 50th St-Alameda St to Long Beach Ave","cd":"9","route_no":"3NP310 M","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"Washingon Blvd to 50th St-Alameda St to Long Beach Ave","cd":"9","route_no":"3NP310 Tu","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"32nd St to Slauson Ave-Central Ave to Hooper Ave ","cd":"9","route_no":"3P113 F","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"32nd St to Slauson Ave-Central Ave to Hooper Ave ","cd":"9","route_no":"3P113 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Martin L King Blvd to 57th Ave - Central Ave to McKinley Ave","cd":"9","route_no":"3P114 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Martin L King Blvd to 57th Ave - Central Ave to McKinley Ave","cd":"9","route_no":"3P114 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Washington Blvd to 29th St - Hooper Ave to Central Ave","cd":"9","route_no":"3P119 F","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Washington Blvd to 29th St - Hooper Ave to Central Ave","cd":"9","route_no":"3P119 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"73rd to 79th st -Main St to Vermont Ave","cd":"8","route_no":"3P123 M","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"73rd to 79th st -Main St to Vermont Ave","cd":"8","route_no":"3P123 Tu","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Slauson Ave to Gage Ave-Harbor Fwy to Vermont Ave","cd":"8","route_no":"3P161 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Slauson Ave to Gage Ave-Harbor Fwy to Vermont Ave","cd":"8","route_no":"3P161 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"8th St to Olympic Blvd-Lorena St to Soto St ","cd":"9","route_no":"3P204 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"8th St to Olympic Blvd-Lorena St to Soto St ","cd":"9","route_no":"3P204 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Martin L King Blvd to 55th St McKinley Ave to Avalon Blvd","cd":"9","route_no":"3P217 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Martin L King Blvd to 55th St McKinley Ave to Avalon Blvd","cd":"9","route_no":"3P217 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"59th St to Florence Ave - Main St to Figueroa","cd":"8","route_no":"3P226 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"59th St to Florence Ave - Main St to Figueroa","cd":"8","route_no":"3P226 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Slauson Ave to 65th st- Avalon Bl to Olive St","cd":"8","route_no":"3P227 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Slauson Ave to 65th st- Avalon Bl to Olive St","cd":"8","route_no":"3P227 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"65th St to 77th St - Avalon Blvd to Main St","cd":"8","route_no":"3P228 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"65th St to 77th St - Avalon Blvd to Main St","cd":"8","route_no":"3P228 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Florence Ave to 79th St- Central Ave to Main St & Avalon Blvd","cd":"8","route_no":"3P229 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Florence Ave to 79th St- Central Ave to Main St & Avalon Blvd","cd":"8","route_no":"3P229 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Vernon Ave to Slauson Ave- Figueroa St to Vermont Ave","cd":"9","route_no":"3P247 M","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Vernon Ave to Saluson Ave - Figueroa St to Vermont Ave","cd":"9","route_no":"3P247 W","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Main St to Avalon Blvd-Vernon Ave to 58th St","cd":"9","route_no":"3P250 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Main St to Avalon Blvd-Vernon Ave to 58th St","cd":"9","route_no":"3P250 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"16th St to Jefferson Blvd-Main St to San Pedro St","cd":"9","route_no":"3P251 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"16th St to Jefferson Blvd-Main St to San Pedro St","cd":"9","route_no":"3P251 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Jefferson Blvd to Vernon Ave-Main St to Avalon Blvd","cd":"9","route_no":"3P252 F","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Jefferson Blvd to Vernon Ave-Main St to Avalon Blvd","cd":"9","route_no":"3P252 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Santa Monica Fwy to Jefferson Blvd-Harbor Fwy to Vermont Ave","cd":"8/9","route_no":"3P256 Tu","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Santa Monica Fwy to Jefferson Blvd-Harbor Fwy to Vermont Ave","cd":"8/9","route_no":"3P256 W","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Santa Ana Fwy to 8th St-Indiana St to Fickett St","cd":"14","route_no":"3P273 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Santa Ana Fwy to 8th St-Indiana St to Fickett St","cd":"14","route_no":"3P273 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Martin L King Blvd to Slauson Ave - Grand Ave to Main St","cd":"9","route_no":"3P303 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Martin L King Blvd to Slauson Ave - Grand Ave to Main St","cd":"9","route_no":"3P303 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"21st St to 41st St - Long Beach Ave to Hooper Ave","cd":"9","route_no":"3P304 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"21st St to 41st St - Long Beach Ave to Hooper Ave","cd":"9","route_no":"3P304 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"41st St to 48th Pl - Long Beach Ave to Hooper Ave","cd":"9","route_no":"3P305 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"41st St to 48th Pl - Long Beach Ave to Hooper Ave","cd":"9","route_no":"3P305 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"48th St to Slauson Ave-Long Beach Ave to Hooper Ave   McGarry St to Long Beach Ave-51st St to 55th St","cd":"9","route_no":"3P306 F","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"48th St to Slauson Ave-Long Beach Ave to Hooper Ave   McGarry St to Long Beach Ave-51st St to 55th St","cd":"9","route_no":"3P306 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Washington Bl to Martin L King Bl-Central Ave to San Pedro St","cd":"9","route_no":"3P307 F","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Washington Bl to Martin L King Bl-Central Ave to San Pedro St","cd":"9","route_no":"3P307 Th","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Exposition Blvd to Vernon Ave-Harbor Fwy to Vermont Ave- Vernon Ave to Slauson Ave-Harbor Fwy to Figueroa St","cd":"9","route_no":"3P308 M","time_end":"2:00 PM","time_start":"11:00 AM"}
+,{"boundaries":"Exposition Blvd to Vernon Ave-Harbor Fwy to Vermont Ave- Vernon Ave to Slauson Ave-Harbor Fwy to Figueroa St","cd":"9","route_no":"3P308 W","time_end":"2:00 PM","time_start":"11:00 AM"}
+,{"boundaries":"Gage St to Florence Ave- Flower St to Vermont Ave","cd":"8","route_no":"3P309 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Gage St to Florence Ave- Flower St to Vermont Ave","cd":"8","route_no":"3P309 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"52nd St to Slauson Ave-Alameda St to Long Beach Ave","cd":"9","route_no":"3P311 M","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"52nd St to Slauson Ave-Alameda St to Long Beach Ave","cd":"9","route_no":"3P311 Tu","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Virgil Ave to Vermont - Oakwood Ave to 3rd st","cd":"13","route_no":"4P109 M","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Virgil Ave to Vermont - Oakwood Ave to 3rd st","cd":"13","route_no":"4P109 Tu","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Lake St to LaFayette Park Pl - 6th st to Olympic Bl","cd":"1","route_no":"4P122 F","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Lake St to LaFayette Park Pl - 6th st to Olympic Bl","cd":"1","route_no":"4P122 Th","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"6th st to Olympic Bl- Hoover St to Vermont Ave","cd":"1/10","route_no":"4P123 F","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"6th st to Olympic Bl- Hoover St to Vermont Ave","cd":"1/10","route_no":"4P123 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Olympic Bl to Pico Bl- Alvarado st to Vermont Ave","cd":"1","route_no":"4P130 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Olympic Bl to Pico Bl- Alvarado st to Vermont Ave","cd":"1","route_no":"4P130 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Cesar Chavez Ave to 6th st- Mott St to Cummings St","cd":"14","route_no":"4P131 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Cesar Chavez Ave to 6th st- Mott St to Cummings St","cd":"14","route_no":"4P131 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"4th st to Santa Ana Fwy- Euclid St to Boyle Ave","cd":"14","route_no":"4P132 F","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"4th st to Santa Ana Fwy- Euclid St to Boyle Ave","cd":"14","route_no":"4P132 Th","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Olympic Bl to Pico Bl- Georgia St to Alvarado St","cd":"1/9","route_no":"4P166 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Olympic Bl to Pico Bl- Georgia St to Alvarado St","cd":"1/9","route_no":"4P166 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Pico Bl to Santa Monica Fwy- Bonnie Brae to Vermont Ave","cd":"1/9","route_no":"4P167 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Pico Bl to Santa Monica Fwy- Bonnie Brae to Vermont Ave","cd":"1/9","route_no":"4P167 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Pico Bl to Santa Monica fwy- Harbor Fwy to Hoover St","cd":"1","route_no":"4P168 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Pico Bl to Santa Monica fwy- Harbor Fwy to Hoover St","cd":"1","route_no":"4P168 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Beverly Bl to 3rd St- Loma Dr to Alvarado St","cd":"13","route_no":"4P178 M","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Beverly Bl to 3rd St- Loma Dr to Alvarado St","cd":"13","route_no":"4P178 Tu","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Ross Loos Pl to Beverly Bl - Union Ave to Alvarado st","cd":"13","route_no":"4P179 M","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Ross Loos Pl to Beverly Bl - Union Ave to Alvarado st","cd":"13","route_no":"4P179 Tu","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"3rd St to 6th st- Loma Dr toAlvarado St","cd":"1","route_no":"4P180 M","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"3rd St to 6th st- Loma Dr toAlvarado St","cd":"1","route_no":"4P180 Tu","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Palo Alto St to Beverly Bl- Glendale Bl to Union Ave","cd":"13","route_no":"4P181 M","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Palo Alto St to Beverly Bl- Glendale Bl to Union Ave","cd":"13","route_no":"4P181 Tu","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Temple St to 3rd St- Alvarado Bl to Rampart Bl","cd":"13","route_no":"4P182 M","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Temple St to 3rd St- Alvarado Bl to Rampart Bl","cd":"13","route_no":"4P182 Tu","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"6th st to 7th st -Harbor Fwy to Alvarado St","cd":"1","route_no":"4P183 F","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"6th st to 7th st -Harbor Fwy to Alvarado St","cd":"1","route_no":"4P183 Th","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"7th st to Olympic Bl- Harbor Fwy to to Alvarado St","cd":"1","route_no":"4P184 F","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"7th st to Olympic Bl- Harbor Fwy to to Alvarado St","cd":"1","route_no":"4P184 Th","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Beverly Bl to 6th st- Lake st to Dillon St","cd":"1/13","route_no":"4P185 M","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Beverly Bl to 6th st- Lake st to Dillon St","cd":"1/13","route_no":"4P185 Tu","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Temple St to 3rd St- Alvarado St to Rampart Bl","cd":"13","route_no":"4P186 M","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Temple St to 3rd St- Alvarado St to Rampart Bl","cd":"13","route_no":"4P186 Tu","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Hollywood Fwy to 2nd St- Harbor Fwy to Glendale Bl","cd":"1","route_no":"4P209 M","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Hollywood Fwy to 2nd St- Harbor Fwy to Glendale Bl","cd":"1","route_no":"4P209 Tu","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"4th st to Santa Ana Fwy- Mott St to Lorena St","cd":"14","route_no":"4P210 F","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"4th st to Santa Ana Fwy- Mott St to Lorena St","cd":"14","route_no":"4P210 Th","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Beverly Bl to 6th St- Loma Dr to Beaudry Ave","cd":"1/13","route_no":"4P214 M","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Beverly Bl to 6th St- Loma Dr to Beaudry Ave","cd":"1/13","route_no":"4P214 Tu","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Cesar Chavez Ave to 6th St- Golden State Fwy to Anderson St","cd":"14","route_no":"4P220 Tu","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Cesar Chavez Ave to 6th St- Golden State Fwy to Anderson St","cd":"14","route_no":"4P220 W","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Indiana St to Mott St- Ceasar S Chavez Bl to 6th st","cd":"14","route_no":"4P221 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Indiana St to Mott St- Ceasar S Chavez Bl to 6th st","cd":"14","route_no":"4P221 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"4th St to Santa Ana fwy- Indiana St to Lorean St","cd":"14","route_no":"4P224 F","time_end":"12:00 PM","time_start":"9:00 AM"}
+,{"boundaries":"4th St to Santa Ana fwy- Indiana St to Lorean St","cd":"14","route_no":"4P224 Th","time_end":"12:00 PM","time_start":"9:00 AM"}
+,{"boundaries":"Pasadena Fwy to N.Main / Pasadena Av to Sunset Bl","cd":"1/14","route_no":"5NP296 F","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"Pasadena Fwy to N.Main / Pasadena Av to Sunset Bl","cd":"1/14","route_no":"5NP296 Th","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"Pasadena Fwy to Pasadena Av / Pasadena Av to Golden State Fwy","cd":"1","route_no":"5NP317 Tu","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"Pasadena Fwy to Pasadena Av / Pasadena Av to Golden State Fwy","cd":"1","route_no":"5NP317 W","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"East Lake Av, Alcaraz St to Marengo St / Soto St to Mission Rd, Narva St","cd":"14","route_no":"5NP401 F","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"East Lake Av, Alcaraz St to Marengo St / Soto St to Mission Rd, Narva St","cd":"14","route_no":"5NP401 Th","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"Yoakum St to Huntington Dr / Tampico to Collis Avs","cd":"14","route_no":"5P100 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Yoakum St to Huntington Dr / Tampico to Collis Avs","cd":"14","route_no":"5P100 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Huntington Dr South to Templeton St / Los Angeles City Line to Eastern Av","cd":"14","route_no":"5P101 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Huntington Dr South to Templeton St / Los Angeles City Line to Eastern Av","cd":"14","route_no":"5P101 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Templeton St to Alhambra Av / Los Angeles City Line to Far Place","cd":"14","route_no":"5P102 F","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Templeton St to Alhambra Av / Los Angeles City Line to Far Place","cd":"14","route_no":"5P102 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Main to Clara Sts / Leroy to Elmyra/Avilla Sts","cd":"14","route_no":"5P179 Tu","time_end":"9:00 AM","time_start":"7:30 AM"}
+,{"boundaries":"Main to Clara Sts / Leroy to Elmyra/Avilla Sts","cd":"14","route_no":"5P179 W","time_end":"9:00 AM","time_start":"7:30 AM"}
+,{"boundaries":"Wabash Av to Ceasar Chavez Ave /Soto st to Evergreen Ave","cd":"14","route_no":"5P180 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Wabash Av to Ceasar Chavez Ave /Soto st to Evergreen Ave","cd":"14","route_no":"5P180 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Wabash Ave /Malabar st to Cesar Chavez/Indianan st to Soto st","cd":"14","route_no":"5P181 Tu","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Wabash Ave /Malabar st to Cesar Chavez/Indianan st to Soto st","cd":"14","route_no":"5P181 W","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Sunset Bl to Bellevue Av/ Beaudry Av to Glendale Av","cd":"1/14","route_no":"5P220 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Sunset Bl to Bellevue Av/ Beaudry Av to Glendale Av","cd":"1/14","route_no":"5P220 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Elysian Park ave to 101 fwy/Sunset Bl to Figueroa st / Figueroa terr","cd":"1/14","route_no":"5P221 F","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Elysian Park ave to 101 fwy/Sunset Bl to Figueroa st / Figueroa terr","cd":"1/14","route_no":"5P221 Th","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Figueroa St/Figueroa Terr to N Broadway/Boston St  to Salano av","cd":"1","route_no":"5P222 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Figueroa St/Figueroa Terr to N Broadway/Boston St  to Salano av","cd":"1","route_no":"5P222 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Altivo way to sunset Bl- douglas st to glendale Bl","cd":"13","route_no":"5P223 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Altivo way to sunset Bl- douglas st to glendale Bl","cd":"13","route_no":"5P223 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"N Broadway to Main St/ Mission rd to Golden State Fwy","cd":"1","route_no":"5P253 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"N Broadway to Main St/ Mission rd to Golden State Fwy","cd":"1","route_no":"5P253 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Newell St to Barclay st/Los Angeles River to Golden State fwy","cd":"13","route_no":"5P254 F","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Newell St to Barclay st/Los Angeles River to Golden State fwy","cd":"13","route_no":"5P254 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"San Bernadino Fwy to Malabar st- LA County Line to Soto st","cd":"14","route_no":"5P255 Tu","time_end":"1:30 pm","time_start":"11:30 AM"}
+,{"boundaries":"San Bernadino Fwy to Malabar st- LA County Line to Soto st","cd":"14","route_no":"5P255 W","time_end":"1:30 pm","time_start":"11:30 AM"}
+,{"boundaries":"Montecito Dr to N Broadway- Griffin Av to Pasadena Ave","cd":"1","route_no":"5P257 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Montecito Dr to N Broadway- Griffin Av to Pasadena Ave","cd":"1","route_no":"5P257 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Marengo St to Cesar Chavez- Soto St to Mission Rd","cd":"14","route_no":"5P259 Tu","time_end":"2:30 PM","time_start":"12:30 PM"}
+,{"boundaries":"Marengo St to Cesar Chavez- Soto St to Mission Rd","cd":"14","route_no":"5P259 W","time_end":"2:30 PM","time_start":"12:30 PM"}
+,{"boundaries":"Main st to Marengo St- Indiana St to Golden State Fwy","cd":"14","route_no":"5P311 Tu","time_end":"10:30 AM","time_start":"7:30 AM"}
+,{"boundaries":"Main st to Marengo St- Indiana St to Golden State Fwy","cd":"14","route_no":"5P311 W","time_end":"10:30 AM","time_start":"7:30 AM"}
+,{"boundaries":"Valley Blvd to Bohlig rd-Highburg av to Lansdowne Ave","cd":"14","route_no":"5P312 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Valley Blvd to Bohlig rd-Highburg av to Lansdowne Ave","cd":"14","route_no":"5P312 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Roberta st to Broadway-sierra St to Griffin ave","cd":"1","route_no":"5P315 Tu","time_end":"2:30 PM","time_start":"12:30 PM"}
+,{"boundaries":"Roberta st to Broadway-sierra St to Griffin ave","cd":"1","route_no":"5P315 W","time_end":"2:30 PM","time_start":"12:30 PM"}
+,{"boundaries":"Glendale Fwy to Newell st- Los angeles River to Golden State fwy","cd":"13","route_no":"5P316 F","time_end":"1:30 PM","time_start":"11:30 AM"}
+,{"boundaries":"Glendale Fwy to Newell st- Los angeles River to Golden State fwy","cd":"13","route_no":"5P316 Th","time_end":"1:30 PM","time_start":"11:30 AM"}
+,{"boundaries":"York Bl to Pasedana fwy-Figueroa St to Avenue 50","cd":"1/14","route_no":"6NP184 F","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"York Bl to Pasedana fwy-Figueroa St to Avenue 50","cd":"1/14","route_no":"6NP184 W","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"Meridian st to Roble Ave-Avenue 66 to Figueroa St","cd":"14","route_no":"6P168 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Meridian st to Roble Ave-Avenue 66 to Figueroa St","cd":"14","route_no":"6P168 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Figueroa St to Pasadena Fwy- Avenue 44 to Avenue 37","cd":"1","route_no":"6P169 Th","time_end":"9:30 AM","time_start":"7:30 AM"}
+,{"boundaries":"Figueroa St to Pasadena Fwy- Avenue 44 to Avenue 37","cd":"1","route_no":"6P169 W","time_end":"9:30 AM","time_start":"7:30 AM"}
+,{"boundaries":"Isabel St to Cypress Ave- Pasadena Ave to Cazador st","cd":"1","route_no":"6P170 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Isabel St to Cypress Ave- Pasadena Ave to Cazador st","cd":"1","route_no":"6P170 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Cypress Ave to San Fernando rd- Figueroa to Division St","cd":"1","route_no":"6P171 Th","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Cypress Ave to San Fernando rd- Figueroa to Division St","cd":"1","route_no":"6P171 W","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Stradford Rd to Buchanan St- Avenue 54 to Eagle Rock Bl","cd":"1/14","route_no":"6P258 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Stradford Rd to Buchanan St- Avenue 54 to Eagle Rock Bl","cd":"1/14","route_no":"6P258 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Meridian St to Aldama St- Figueroa to Avenue 54","cd":"1","route_no":"6P259 Th","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Meridian St to Aldama St- Figueroa to Avenue 54","cd":"1","route_no":"6P259 W","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Chapman St to Marguerite St- Avenue 36 to Avenue 32","cd":"1","route_no":"6P313 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Chapman St to Marguerite St- Avenue 36 to Avenue 32","cd":"1","route_no":"6P313 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Colorado Bl to Yosemite Dr-Townsend Ave to Eagle Rock Bl","cd":"1/14","route_no":"6P314 Th","time_end":"1:00 PM","time_start":"11:00 AM"}
+,{"boundaries":"Colorado Bl to Yosemite Dr-Townsend Ave to Eagle Rock Bl","cd":"1/14","route_no":"6P314 W","time_end":"1:00 PM","time_start":"11:00 AM"}
+,{"boundaries":"Marmion Wy to Bertha St- Pasadena Fwy to Figueroa St","cd":"14","route_no":"6P352 Th","time_end":"1:00 PM","time_start":"11:00 AM"}
+,{"boundaries":"Marmion Wy to Bertha St- Pasadena Fwy to Figueroa St","cd":"14","route_no":"6P352 W","time_end":"1:00 PM","time_start":"11:00 AM"}
+,{"boundaries":"Franklin to Fountain / Nornmandie to Wilton pl,","cd":"13","route_no":"7P109 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Franklin to Fountain / Nornmandie to Wilton pl,","cd":"13","route_no":"7P109 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Franklin to Fountain / Hillhurst to Nornmandie av","cd":"4/13","route_no":"7P112 F","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Franklin to Fountain / Hillhurst to Nornmandie av","cd":"4/13","route_no":"7P112 W","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Vermont av to Hillhurst av,/Russell av. To Prospect av","cd":"4","route_no":"7P113 F","time_end":"9:30 AM","time_start":"7:30 AM"}
+,{"boundaries":"Vermont av to Hillhurst av,/Russell av. To Prospect av","cd":"4","route_no":"7P113 W","time_end":"9:30 AM","time_start":"7:30 AM"}
+,{"boundaries":"Santa Monica bl. To Hollywood fwy / Hoover st. to Vermont av.","cd":"13","route_no":"7P211 F","time_end":"2:00 PM","time_start":"11:00 AM"}
+,{"boundaries":"Santa Monica bl. To Hollywood fwy / Hoover st. to Vermont av.","cd":"13","route_no":"7P211 W","time_end":"2:00 PM","time_start":"11:00 AM"}
+,{"boundaries":"Fountain av. to Santa Monica bl./ Vermont to  Hollywood fwy","cd":"13","route_no":"7P212 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Fountain av. to Santa Monica bl./ Vermont to  Hollywood fwy","cd":"13","route_no":"7P212 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Santa Monica bl.to Hollywood fwy / Vermont av. To Hollywood fwy","cd":"13","route_no":"7P213 F","time_end":"2:00 PM","time_start":"11:00 AM"}
+,{"boundaries":"Santa Monica bl.to Hollywood fwy / Vermont av. To Hollywood fwy","cd":"13","route_no":"7P213 W","time_end":"2:00 PM","time_start":"11:00 AM"}
+,{"boundaries":"Maltman av./Lucile av. To Silverlake bl /  Hoover st. to Sunset bl.","cd":"13","route_no":"7P259 F","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Maltman av./Lucile av. To Silverlake bl /  Hoover st. to Sunset bl.","cd":"13","route_no":"7P259 Th","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Sunset bl.to Hollywood fwy /  Coronado st to Silverlake bl.","cd":"13","route_no":"7P260 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Sunset bl.to Hollywood fwy /  Coronado st to Silverlake bl.","cd":"13","route_no":"7P260 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Commonwealth av. To Western av. /  Los Feliz bl. To Franklin av.","cd":"4/13","route_no":"7P261 F","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Commonwealth av. To Western av. /  Los Feliz bl. To Franklin av.","cd":"4/13","route_no":"7P261 W","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Fountain av.to Maltman av /Lucile av.  /  Sunet bl./Griffith park bl. To Hoover st","cd":"13","route_no":"7P262 F","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Fountain av.to Maltman av /Lucile av.  /  Sunet bl./Griffith park bl. To Hoover st","cd":"13","route_no":"7P262 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Sunset bl. To Hollywood fwy / Coronado to Glendale bl.","cd":"13","route_no":"7P265 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Sunset bl. To Hollywood fwy / Coronado to Glendale bl.","cd":"13","route_no":"7P265 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Westshire dr. to Franklin ave. / Beachwood dr. to Carmen av.","cd":"4","route_no":"7P300 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Westshire dr. to Franklin ave. / Beachwood dr. to Carmen av.","cd":"4","route_no":"7P300 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Goodwin av. To Glendale bl. /  Glendale bl. Griffith Park bl.","cd":"13","route_no":"7P321 F","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Goodwin av. To Glendale bl. /  Glendale bl. Griffith Park bl.","cd":"13","route_no":"7P321 W","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Los Feliz bl. To Franklin av. / St. George st. / Griffith park bl.to  Commonwealth av.","cd":"4","route_no":"7P322 F","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Los Feliz bl. To Franklin av. / St. George st. / Griffith park bl.to  Commonwealth av.","cd":"4","route_no":"7P322 W","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Glendale bl. To Silverlake bl/ / Glendale cityline to L A River","cd":"13","route_no":"7P323 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Glendale bl. To Silverlake bl/ / Glendale cityline to L A River","cd":"13","route_no":"7P323 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Winans dr. to Harold way /  Western ave to Cahuenga bl.","cd":"4/13","route_no":"7P325 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Winans dr. to Harold way /  Western ave to Cahuenga bl.","cd":"4/13","route_no":"7P325 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Hollywood bl. & Sunset bl. To Santa Monica /  Hoover st to Vermont av.","cd":"13","route_no":"7P326 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Hollywood bl. & Sunset bl. To Santa Monica /  Hoover st to Vermont av.","cd":"13","route_no":"7P326 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Franklin av. to Fountain av. / Hillhurst to Sanorn av.","cd":"4/13","route_no":"7P327 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Franklin av. to Fountain av. / Hillhurst to Sanorn av.","cd":"4/13","route_no":"7P327 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"St. George st. to Fountain av. / Sanborn av. Griffith park bl.","cd":"4/13","route_no":"7P328 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"St. George st. to Fountain av. / Sanborn av. Griffith park bl.","cd":"4/13","route_no":"7P328 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Alleys N/0 and S/O Melrose Ave Highland Ave to Fairfax Ave","cd":"5","route_no":"8NP100","time_end":"6:30 AM","time_start":"4:00 AM"}
+,{"boundaries":"Melrose Ave to Beverly Bl- Gardner to Laurel Ave","cd":"5","route_no":"8P104 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Melrose Ave to Beverly Bl- Gardner to Laurel Ave","cd":"5","route_no":"8P104 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Hollywood Bl to Santa Monica Bl-Wilton Pl to Vine st","cd":"13","route_no":"8P106 M","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Hollywood Bl to Santa Monica Bl-Wilton Pl to Vine st","cd":"13","route_no":"8P106 Tu","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Santa Monica Bl to Melrose Av- Wilton Pl to Vine St","cd":"13","route_no":"8P107 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Santa Monica Bl to Melrose Av- Wilton Pl to Vine St","cd":"13","route_no":"8P107 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Hollywood Bl to Fountain Ave - La Brea Ave to Gardner St","cd":"4","route_no":"8P110 M","time_end":"2:00 PM","time_start":"11:00 AM"}
+,{"boundaries":"Hollywood Bl to Fountain Ave - La Brea Ave to Gardner St","cd":"4","route_no":"8P110 Tu","time_end":"2:00 PM","time_start":"11:00 AM"}
+,{"boundaries":"Hollywood Bl to Fountain Ave- Sierra Bonita to Orange Grove Ave","cd":"4","route_no":"8P111 M","time_end":"12:00 PM","time_start":"9:00 AM"}
+,{"boundaries":"Hollywood Bl to Fountain Ave- Sierra Bonita to Orange Grove Ave","cd":"4","route_no":"8P111 Tu","time_end":"12:00 PM","time_start":"9:00 AM"}
+,{"boundaries":"Elmwood Ave to 3rd St - Normandie Ave to Wilton PL","cd":"4/10","route_no":"8P120 F","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Elmwood Ave to 3rd St - Normandie Ave to Wilton PL","cd":"4/10","route_no":"8P120 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Larchmont Bl to Wilton Pl- Melrose Ave to Elmwood Ave","cd":"4","route_no":"8P150 M","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Larchmont Bl to Wilton Pl- Melrose Ave to Elmwood Ave","cd":"4","route_no":"8P150 Tu","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Santa Monica Bl to Elmwood Ave- Wilton Pl to Western Ave","cd":"4/13","route_no":"8P151 F","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Santa Monica Bl to Elmwood Ave- Wilton Pl to Western Ave","cd":"4/13","route_no":"8P151 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Rosewood Ave to 3rd St- Fairfax Ave to La Cienaga BL","cd":"5","route_no":"8P152 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Rosewood Ave to 3rd St- Fairfax Ave to La Cienaga BL","cd":"5","route_no":"8P152 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Beverly Blvd to 3rd St- La Brea Ave to Gardner St","cd":"5","route_no":"8P153 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Beverly Blvd to 3rd St- La Brea Ave to Gardner St","cd":"5","route_no":"8P153 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Beverly Blvd to 3rd St- Vermont Ave to Normandie Ave","cd":"13","route_no":"8P154 F","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Beverly Blvd to 3rd St- Vermont Ave to Normandie Ave","cd":"13","route_no":"8P154 W","time_end":"2:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Melrose Ave to Beverly Blvd- Seward to La Brea Ave","cd":"5","route_no":"8P172 M","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Melrose Ave to Beverly Blvd- Seward to La Brea Ave","cd":"5","route_no":"8P172 Tu","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Beverly Blvd to 3rd St- Hudson Pl to La Brea Ave","cd":"5","route_no":"8P173 M","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Beverly Blvd to 3rd St- Hudson Pl to La Brea Ave","cd":"5","route_no":"8P173 Tu","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Melrose Ave to 3rd St- Larchmont Blvd to Wilcox Ave","cd":"4","route_no":"8P174 M","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Melrose Ave to 3rd St- Larchmont Blvd to Wilcox Ave","cd":"4","route_no":"8P174 Tu","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Rosewood Ave to 3rd St -Van Ness to Larchmont Blvd","cd":"4","route_no":"8P175 M","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Rosewood Ave to 3rd St -Van Ness to Larchmont Blvd","cd":"4","route_no":"8P175 Tu","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Hollywood Fwy to Beverly Blvd-Vermont Ave to Western Ave","cd":"13","route_no":"8P176 F","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Hollywood Fwy to Beverly Blvd-Vermont Ave to Western Ave","cd":"13","route_no":"8P176 W","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Romaine St to Melrose Ave - La Brea Ave to Fairfax Ave","cd":"5","route_no":"8P177 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Romaine St to Melrose Ave - La Brea Ave to Fairfax Ave","cd":"5","route_no":"8P177 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Melrose Ave to Beverly Blvd -La Brea Ave to Stanley Ave","cd":"5","route_no":"8P178 M","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Melrose Ave to Beverly Blvd -La Brea Ave to Stanley Ave","cd":"5","route_no":"8P178 Tu","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Sunset Blvd to Santa Monica Blvd - Vine St to Highland Ave","cd":"4/13","route_no":"8P205 M","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Sunset Blvd to Santa Monica Blvd - Vine St to Highland Ave","cd":"4/13","route_no":"8P205 Tu","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Santa Monica Blvd to Melrose Ave- Vine St to Highland Ave","cd":"4","route_no":"8P206 M","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Santa Monica Blvd to Melrose Ave- Vine St to Highland Ave","cd":"4","route_no":"8P206 Tu","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Franklin Ave to Melrose Ave- Highland Ave to La Brea Ave","cd":"4","route_no":"8P263 M","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Franklin Ave to Melrose Ave- Highland Ave to La Brea Ave","cd":"4","route_no":"8P263 Tu","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"L.A City Line to Rosewood Ave - Fairfax Ave to LA Cienega Blvd","cd":"5","route_no":"8P264 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"L.A City Line to Rosewood Ave - Fairfax Ave to LA Cienega Blvd","cd":"5","route_no":"8P264 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Hollywood Blvd to City Line - Fairfax Blvd to Doheny","cd":"4","route_no":"8P323 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Hollywood Blvd to City Line - Fairfax Blvd to Doheny","cd":"4","route_no":"8P323 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Cahuenga Blvd to Hollywood Blvd- Cahuenga to Highland Ave","cd":"13","route_no":"8P324 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Cahuenga Blvd to Hollywood Blvd- Cahuenga to Highland Ave","cd":"13","route_no":"8P324 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Oakhurst - San Vicente, Beverly - Clifton","cd":"5","route_no":"9P102 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Oakhurst - San Vicente, Beverly - Clifton","cd":"5","route_no":"9P102 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"San Vicente - Fairfax, 3rd - Wilshire","cd":"5","route_no":"9P103 M","time_end":"12:00 PM","time_start":"9:00 AM"}
+,{"boundaries":"San Vicente - Fairfax, 3rd - Wilshire","cd":"5","route_no":"9P103 Tu","time_end":"12:00 PM","time_start":"9:00 AM"}
+,{"boundaries":"Hauser - La Brea, 3rd - Wilshire","cd":"4","route_no":"9P105 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Hauser - La Brea, 3rd - Wilshire","cd":"4","route_no":"9P105 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Western - Irolo, Wilshire - Olympic","cd":"10","route_no":"9P107 Th","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Irolo - Vermont, Wilshire - Olympic","cd":"10","route_no":"9P107 W","time_end":"1:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Western - Normandie, Olympic - Pico","cd":"1","route_no":"9P111 Th","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Normandie - Vermont, Olympic - Pico","cd":"1","route_no":"9P111 W","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Western - Normandie, 3rd - Wilshire","cd":"10","route_no":"9P121 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Western - Normandie, 3rd - Wilshire","cd":"10","route_no":"9P121 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Crenshaw - Wilton, Olympic - Pico","cd":"10","route_no":"9P144 Th","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Crenshaw - Wilton, Olympic - Pico","cd":"10","route_no":"9P144 W","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Olympic - Cashio, Robertson - La Cienega","cd":"5","route_no":"9P145 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Olympic - Cashio, Robertson - La Cienega","cd":"5","route_no":"9P145 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"3rd - Pico, Western - Wilton","cd":"4/10","route_no":"9P146 Th","time_end":"2:00 PM","time_start":"11:00 AM"}
+,{"boundaries":"4th - Pico, Western - Wilton","cd":"4/10","route_no":"9P146 W","time_end":"2:00 PM","time_start":"11:00 AM"}
+,{"boundaries":"3rd - Wilshire, Vermont - Normandie","cd":"10","route_no":"9P147 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"4th - Wilshire, Vermont - Normandie","cd":"10","route_no":"9P147 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Western - Vermont, Pico - Venice & Venice - Washington, Wilton - Vermont","cd":"1","route_no":"9P148 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Western - Vermont, Pico - Venice & Venice - Washington, Wilton - Vermont","cd":"1","route_no":"9P148 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Western - Normandie, Venice - 10 Fwy & Normandie - Vermont, Washington - 10 Fwy","cd":"1","route_no":"9P149 Th","time_end":"12:00 PM","time_start":"9:00 AM"}
+,{"boundaries":"Western - Normandie, Venice - 10 Fwy & Normandie - Vermont, Washington - 10 Fwy","cd":"1","route_no":"9P149 W","time_end":"12:00 PM","time_start":"9:00 AM"}
+,{"boundaries":"LeDoux - Robertson, Gregory - Olympic","cd":"5","route_no":"9P150 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"LeDoux - Robertson, Gregory - Olympic","cd":"5","route_no":"9P150 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Pico - Washington, Wilton - Bronson","cd":"10","route_no":"9P151 Th","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Pico - Washington, Wilton - Bronson","cd":"10","route_no":"9P151 W","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Thurman - La Brea, Washington - 10 Fwy","cd":"10","route_no":"9P162 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Thurman - La Brea, Washington - 10 Fwy","cd":"10","route_no":"9P162 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Pico - Olympic, Houser - La Brea","cd":"4/10","route_no":"9P163 M","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Pico - Olympic, Houser - La Brea","cd":"4/10","route_no":"9P163 Tu","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Pico - 10 Fwy, Western - Arlington","cd":"10","route_no":"9P164 Th","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Pico - 10 Fwy, Western - Arlington","cd":"10","route_no":"9P164 W","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"La Brea - Arlington, 10 Fwy - Washington","cd":"10","route_no":"9P165 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"La Brea - Arlington, 10 Fwy - Washington","cd":"10","route_no":"9P165 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Olympic - Saturn, Fairfax - La Cienega","cd":"5/10","route_no":"9P218 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Olympic - Saturn, Fairfax - La Cienega","cd":"5/10","route_no":"9P218 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Sawyer - Kramerwood, Venice - Robertson","cd":"10","route_no":"9P219 M","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Sawyer - Kramerwood, Venice - Robertson","cd":"10","route_no":"9P219 Tu","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Sawyer - Pickford, Robertson - Crescent Heights","cd":"5","route_no":"9P276 M","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Sawyer - Pickford, Robertson - Crescent Heights","cd":"5","route_no":"9P276 Tu","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Wilshire - Olympic, Sierra Bonita - La Brea","cd":"4","route_no":"9P277 M","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Wilshire - Olympic, Sierra Bonita - La Brea","cd":"4","route_no":"9P277 Tu","time_end":"11:00 AM","time_start":"9:00 AM"}
+,{"boundaries":"Olympic - 12th ST, Redondo - Lucerne","cd":"10","route_no":"9P279 Th","time_end":"12:00 PM","time_start":"9:00 AM"}
+,{"boundaries":"Olympic - 12th ST, Redondo - Lucerne","cd":"10","route_no":"9P279 W","time_end":"12:00 PM","time_start":"9:00 AM"}
+,{"boundaries":"Buchard - National, 10 Fwy - city line (n/o Washington)","cd":"10","route_no":"9P280 M","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Buchard - National, 10 Fwy - city line (n/o Washington)","cd":"10","route_no":"9P280 Tu","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Venice - Washington, La Brea - West","cd":"10","route_no":"9P281 Th","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Venice - Washington, West - Crenshaw","cd":"10","route_no":"9P281 W","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Wilshire - Olympic, Sierra Bonita - Schumacher","cd":"5","route_no":"9P282 M","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Wilshire - Olympic, Sierra Bonita - Schumacher","cd":"5","route_no":"9P282 Tu","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Pico - 12th St, Queen Ann - La Brea","cd":"10","route_no":"9P283 Th","time_end":"12:00 PM","time_start":"9:00 AM"}
+,{"boundaries":"Pico - 12th St, Queen Ann - La Brea","cd":"10","route_no":"9P283 W","time_end":"12:00 PM","time_start":"9:00 AM"}
+,{"boundaries":"Olympic - Pico, Hauser - Fairfax","cd":"4/10","route_no":"9P284 M","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Olympic - Pico, Hauser - Fairfax","cd":"4/10","route_no":"9P284 Tu","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"3rd st to Olympic Bl- Wilton Pl to La Brea ave","cd":"4","route_no":"9P285 Th","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"3rd st to Olympic Bl- Wilton Pl to La Brea ave","cd":"4","route_no":"9P285 W","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Olympic - Wilshire, Wilton  - Lucerne","cd":"4/10","route_no":"9P286 Th","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"Olympic - Wilshire, Wilton  - Lucerne","cd":"4/10","route_no":"9P286 W","time_end":"12:00 PM","time_start":"10:00 AM"}
+,{"boundaries":"3rd St - 6th St, Van Ness - La Brea","cd":"4","route_no":"9P343 Th","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"4th St - 6th St, Van Ness - La Brea","cd":"4","route_no":"9P343 W","time_end":"11:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Olympi - Pico, Queen Ann - Crenshaw","cd":"10","route_no":"9P344 Th","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Olympi - Pico, Queen Ann - Crenshaw","cd":"10","route_no":"9P344 W","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Pico - Venice, Fairfax - Hauser","cd":"5","route_no":"9P345 M","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Washington - Venice, Fairfax - Hauser","cd":"5","route_no":"9P345 Tu","time_end":"3:00 PM","time_start":"12:00 PM"}
+,{"boundaries":"Gutherie - Saturn, Fairfax, Crescent Heights","cd":"5","route_no":"9P346 M","time_end":"2:00 PM","time_start":"11:00 AM"}
+,{"boundaries":"Gutherie - Saturn, Fairfax, Crescent Heights","cd":"5","route_no":"9P346 Tu","time_end":"2:00 PM","time_start":"11:00 AM"}
+,{"boundaries":"Pico - Washington, Hauser - La Brea","cd":"10","route_no":"9P347 M","time_end":"10:00 AM","time_start":"8:00 AM"}
+,{"boundaries":"Pico - Washington, Hauser - La Brea","cd":"10","route_no":"9P347 Tu","time_end":"10:00 AM","time_start":"8:00 AM"}]
