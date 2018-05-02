@@ -11,6 +11,18 @@ var post = [
     { message: 'hi' }
 ]
 
+var testStreet = [
+    {
+        ShortName: '55th St',
+
+        Coord: [
+            -118.3259215,
+            33.9931439
+        ]
+    }
+
+]
+
 app.use(cors());
 app.use(bodyParser.json());
 
@@ -34,13 +46,25 @@ app.post('/addsubdistrict', (req, res) => {
     var subDist = new Subdistrict(subDistData);
     console.log(subDist);
     subDist.save((err, result) => {
-        if(err){
+        if (err) {
             console.log('Saving User Error');
             res.sendStatus(501);
         } else {
             res.sendStatus(200);
         }
     });
+});
+
+app.post('/rangeData', async (req, res) => {
+    try {
+        var address = req.body;
+        //console.log(address); // TEST: Make sure the location data is passed in correctly
+        var subdistricts = await Subdistrict.find({ Streets: address });
+        res.send(subdistricts);
+    } catch (error) {
+        console.log(error);
+        res.sendStatus(501);
+    }
 });
 
 app.post('/addparkinglot', (req, res) => {
@@ -80,7 +104,6 @@ app.post('/checkforsubdistrict', async (req, res) => {
         res.sendStatus(501);
     }
 });
-
 
 mongoose.connect('mongodb://test:test@ds223609.mlab.com:23609/ciphappdb', (err) => {
     if (!err)
