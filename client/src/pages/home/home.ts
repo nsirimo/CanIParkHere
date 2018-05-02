@@ -14,7 +14,6 @@ import axios from 'axios';
 export class HomePage {
   searchBar : FormGroup;
 
-  // Insert default coordinates
   latitude: number = 40.730610;
   longitude: number = -73.935242;
 
@@ -41,10 +40,8 @@ export class HomePage {
 
   // Grabs the user input from the search bar and returns an object storing the location data
   getLocationData() {
-    // Grab the location from the search bar
     const location = this.searchBar.value.address;
 
-    // Create an object to store all the location data
     var locationData = {
       premise: null,
       street_number: null,
@@ -58,7 +55,6 @@ export class HomePage {
       longitude: null
     }
 
-    // Use Axios to allow HTTP requests to the Google Maps database
     var axioGet = axios.get('https://maps.googleapis.com/maps/api/geocode/json', {
         params: {
           address: location,
@@ -85,12 +81,9 @@ export class HomePage {
           }
         }
 
-        // Get the location coordinates
         locationData.latitude = result.geometry.location.lat;
         locationData.longitude = result.geometry.location.lng;
 
-        // Print the location data for testing purposes
-        //console.log(locationData);
       })
       .catch(function(error){
         console.log(error);
