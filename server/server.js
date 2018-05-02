@@ -6,29 +6,8 @@ var app = express();
 var Subdistrict = require('./Models/Subdistrict');
 var Parkinglot = require('./Models/Parkinglot');
 
-var post = [
-    { message: 'Hello!' },
-    { message: 'hi' }
-]
-
-var testStreet = [
-    {
-        ShortName: 'Budlong Ave',
-
-        Coord: [
-            -118.3259215,
-            33.9931439
-        ]
-    }
-
-]
-
 app.use(cors());
 app.use(bodyParser.json());
-
-app.get('/posts', (req, res) => {
-    res.send(post);
-});
 
 app.get('/subdistricts', async (req, res) => {
     try {
@@ -44,7 +23,6 @@ app.post('/addsubdistrict', (req, res) => {
     var subDistData = req.body;
 
     var subDist = new Subdistrict(subDistData);
-    console.log(subDist);
     subDist.save((err, result) => {
         if (err) {
             console.log('Saving User Error');
@@ -78,8 +56,6 @@ app.post('/addparkinglot', (req, res) => {
     var parkingLotData = req.body;
 
     var parkingLot = new Parkinglot(parkingLotData);
-    console.log(parkingLot);
-    console.log(parkingLotData);
     parkingLot.save((err, result) => {
         if (err) {
             console.log('Saving User Error');
@@ -96,15 +72,6 @@ app.post('/checkforsubdistrict', async (req, res) => {
         var subDistData = req.body;
         var subDist = new Subdistrict(subDistData)
         var subdistricts = await Subdistrict.find(subDistData);
-        console.log(req.body);
-        console.log(subDistData);
-        /*
-        var tempSubDist = req.body;
-        var subdistricts = await Subdistrict.find({'SubDistrictID': tempSubDist});
-        console.log(temp);
-        console.log(subdistricts);
-        console.log(req.body);
-        */
         res.send(subdistricts);
     } catch (error) {
         console.error(error);
