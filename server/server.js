@@ -58,23 +58,16 @@ app.post('/addsubdistrict', (req, res) => {
 app.post('/rangeData', async (req, res) => {
     try {
         var address = req.body;
-        var tempStreet = [
-            {
-                ShortName: address.ShortName,
-        
-                Coord: [
-                    address.latitude,
-                    address.longitude
-                ]
-            }
-        
-        ]
-
-        var subdistricts = await Subdistrict.find({
-            ShortName: tempStreet.ShortName
+        var resSubDistricts = req.body;
+        var subdistricts = await Subdistrict.find({});
+        subdistricts.forEach(subdist => {
+            subdist.Streets.forEach(street => {
+                if (street.ShortName === address.ShortName) {
+                    resSubDistricts += subdist;
+                }
+            });
         });
-
-        res.send(subdistricts);
+        res.send(JSON.stringify(resSubDistricts).replace('[object Object]', ''));
     } catch (error) {
         console.log(error);
         res.sendStatus(501);

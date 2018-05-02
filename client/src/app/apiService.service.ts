@@ -9,8 +9,7 @@ export class ApiService {
 
     sendLocationData(locationData) {
         console.log(locationData);
-        this.http.post('http://localhost:3000/rangeData', locationData).subscribe(res => {
-            console.log(res.json());
+        this.http.post('http://localhost:3000/rangeData', locationData).subscribe(res => {            console.log(res.json());
         });
     }
 } 

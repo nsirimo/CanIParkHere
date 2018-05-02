@@ -1,10 +1,19 @@
-var mongoose = require('mongoose');
+var mongoose = require('mongoose'),
+Schema =       mongoose.Schema;;
 
-module.exports = mongoose.model('Subdistrict', {
+const Street = new Schema({
+    ShortName: String,
+    Coord: [Number]
+});
+
+const Subdistrict = new Schema({
     SubDistrictID: String,
     DistrictID: Number,
     GeoFence: Object,
-    Streets: Object,
+    Streets: [Street],
     SweepTime: Object,
     SweepDay: Object
-});
+})
+
+
+module.exports = mongoose.model('Subdistrict', Subdistrict);
