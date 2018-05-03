@@ -6,29 +6,8 @@ var app = express();
 var Subdistrict = require('./Models/Subdistrict');
 var Parkinglot = require('./Models/Parkinglot');
 
-var post = [
-    { message: 'Hello!' },
-    { message: 'hi' }
-]
-
-var testStreet = [
-    {
-        ShortName: '55th St',
-
-        Coord: [
-            -118.3259215,
-            33.9931439
-        ]
-    }
-
-]
-
 app.use(cors());
 app.use(bodyParser.json());
-
-app.get('/posts', (req, res) => {
-    res.send(post);
-});
 
 app.get('/subdistricts', async (req, res) => {
     try {
@@ -44,7 +23,6 @@ app.post('/addsubdistrict', (req, res) => {
     var subDistData = req.body;
 
     var subDist = new Subdistrict(subDistData);
-    console.log(subDist);
     subDist.save((err, result) => {
         if (err) {
             console.log('Saving User Error');
@@ -58,9 +36,20 @@ app.post('/addsubdistrict', (req, res) => {
 app.post('/rangeData', async (req, res) => {
     try {
         var address = req.body;
-        //console.log(address); // TEST: Make sure the location data is passed in correctly
-        var subdistricts = await Subdistrict.find({ Streets: address });
-        res.send(subdistricts);
+        var resSubDistricts = {};
+        var key = 'SubDistInfo';
+        resSubDistricts[key] = [];
+
+        var subdistricts = await Subdistrict.find({});
+        subdistricts.forEach(subdist => {
+            subdist.Streets.forEach(street => {
+                if (street.ShortName === address.ShortName) {
+                    resSubDistricts[key].push(subdist);
+                }
+            });
+        });
+
+        res.send(resSubDistricts);
     } catch (error) {
         console.log(error);
         res.sendStatus(501);
@@ -71,10 +60,8 @@ app.post('/addparkinglot', (req, res) => {
     var parkingLotData = req.body;
 
     var parkingLot = new Parkinglot(parkingLotData);
-    console.log(parkingLot);
-    console.log(parkingLotData);
     parkingLot.save((err, result) => {
-        if(err){
+        if (err) {
             console.log('Saving User Error');
             res.sendStatus(501);
         } else {
@@ -83,21 +70,11 @@ app.post('/addparkinglot', (req, res) => {
     });
 });
 
-
 app.post('/checkforsubdistrict', async (req, res) => {
     try {
         var subDistData = req.body;
         var subDist = new Subdistrict(subDistData)
         var subdistricts = await Subdistrict.find(subDistData);
-        console.log(req.body);
-        console.log(subDistData);
-        /*
-        var tempSubDist = req.body;
-        var subdistricts = await Subdistrict.find({'SubDistrictID': tempSubDist});
-        console.log(temp);
-        console.log(subdistricts);
-        console.log(req.body);
-        */
         res.send(subdistricts);
     } catch (error) {
         console.error(error);
