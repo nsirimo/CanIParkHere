@@ -45,7 +45,7 @@ app.post('/rangeData', async (req, res) => {
                 }
             });
         });
-        res.send(JSON.stringify(resSubDistricts).replace('[object Object]', ''));
+        res.send(JSON.stringify(resSubDistricts));
     } catch (error) {
         console.log(error);
         res.sendStatus(501);
