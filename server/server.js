@@ -36,16 +36,20 @@ app.post('/addsubdistrict', (req, res) => {
 app.post('/rangeData', async (req, res) => {
     try {
         var address = req.body;
-        var resSubDistricts = req.body;
+        var resSubDistricts = {};
+        var key = 'SubDistInfo';
+        resSubDistricts[key] = [];
+
         var subdistricts = await Subdistrict.find({});
         subdistricts.forEach(subdist => {
             subdist.Streets.forEach(street => {
                 if (street.ShortName === address.ShortName) {
-                    resSubDistricts += subdist;
+                    resSubDistricts[key].push(subdist);
                 }
             });
         });
-        res.send(JSON.stringify(resSubDistricts));
+
+        res.send(resSubDistricts);
     } catch (error) {
         console.log(error);
         res.sendStatus(501);
@@ -65,7 +69,6 @@ app.post('/addparkinglot', (req, res) => {
         }
     });
 });
-
 
 app.post('/checkforsubdistrict', async (req, res) => {
     try {
