@@ -17,6 +17,8 @@ export class HomePage {
 
   latitude: number = 40.730610;
   longitude: number = -73.935242;
+
+  // Test data to render location markers on map
   coordinates = [
     {
       lat: 34.0286,
@@ -51,10 +53,6 @@ export class HomePage {
     this.latitude = event.coords.lat;
     this.longitude = event.coords.lng;
     this.getLocationData();
-  }
-
-  addLocationMarker(coord) {
-    this.coordinates.push(coord.lat, coord.lng);
   }
 
   // Grabs the user input from the search bar and returns an object storing the location data
