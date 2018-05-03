@@ -6,6 +6,7 @@ import { FormControl, FormGroup } from '@angular/forms';
 import { Geolocation } from '@ionic-native/geolocation';
 
 import axios from 'axios';
+import { google } from '@agm/core/services/google-maps-types';
 
 @Component({
   selector: 'page-home',
@@ -16,6 +17,20 @@ export class HomePage {
 
   latitude: number = 40.730610;
   longitude: number = -73.935242;
+  coordinates = [
+    {
+      lat: 34.0286,
+      lng: -117.8103
+    },
+    {
+      lat: 33.8358,
+      lng: -118.3406
+    },
+    {
+      lat: 34.0407,
+      lng: -118.2468
+    }
+  ];
 
   constructor(public navCtrl: NavController, private geolocation: Geolocation, public apiService: ApiService) {
     this.searchBar = new FormGroup({
@@ -36,6 +51,10 @@ export class HomePage {
     this.latitude = event.coords.lat;
     this.longitude = event.coords.lng;
     this.getLocationData();
+  }
+
+  addLocationMarker(coord) {
+    this.coordinates.push(coord.lat, coord.lng);
   }
 
   // Grabs the user input from the search bar and returns an object storing the location data
@@ -92,7 +111,5 @@ export class HomePage {
       axioGet.then(() => {
         this.apiService.sendLocationData(locationData);
       });
-
-     
   }
 }
