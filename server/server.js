@@ -6,17 +6,8 @@ var app = express();
 var Subdistrict = require('./Models/Subdistrict');
 var Parkinglot = require('./Models/Parkinglot');
 
-var post = [
-    { message: 'Hello!' },
-    { message: 'hi' }
-]
-
 app.use(cors());
 app.use(bodyParser.json());
-
-app.get('/posts', (req, res) => {
-    res.send(post);
-});
 
 app.get('/subdistricts', async (req, res) => {
     try {
@@ -32,9 +23,8 @@ app.post('/addsubdistrict', (req, res) => {
     var subDistData = req.body;
 
     var subDist = new Subdistrict(subDistData);
-    console.log(subDist);
     subDist.save((err, result) => {
-        if(err){
+        if (err) {
             console.log('Saving User Error');
             res.sendStatus(501);
         } else {
@@ -43,14 +33,35 @@ app.post('/addsubdistrict', (req, res) => {
     });
 });
 
+app.post('/rangeData', async (req, res) => {
+    try {
+        var address = req.body;
+        var resSubDistricts = {};
+        var key = 'SubDistInfo';
+        resSubDistricts[key] = [];
+
+        var subdistricts = await Subdistrict.find({});
+        subdistricts.forEach(subdist => {
+            subdist.Streets.forEach(street => {
+                if (street.ShortName === address.ShortName) {
+                    resSubDistricts[key].push(subdist);
+                }
+            });
+        });
+
+        res.send(resSubDistricts);
+    } catch (error) {
+        console.log(error);
+        res.sendStatus(501);
+    }
+});
+
 app.post('/addparkinglot', (req, res) => {
     var parkingLotData = req.body;
 
     var parkingLot = new Parkinglot(parkingLotData);
-    console.log(parkingLot);
-    console.log(parkingLotData);
     parkingLot.save((err, result) => {
-        if(err){
+        if (err) {
             console.log('Saving User Error');
             res.sendStatus(501);
         } else {
@@ -81,9 +92,7 @@ app.post('/checkforsubdistrict', async (req, res) => {
         var subDistData = req.body;
         var subDist = new Subdistrict(subDistData)
         var subdistricts = await Subdistrict.find(subDistData);
-        console.log(req.body);
-        console.log(subDistData);
-        console.log(subdistricts);
+      
         if(!subdistricts.length){
           toRet = {"isFound": "False"};
           res.send(toRet);
@@ -103,9 +112,7 @@ app.post('/deletesubdistricts', async (req, res) => {
         var subDistData = req.body;
         var subDist = new Subdistrict(subDistData)
         var subdistricts = await Subdistrict.find();
-        console.log(req.body);
-        console.log(subDistData);
-        console.log(subdistricts);
+
         if(!subdistricts.length){
           toRet = {"isDelete": "False"};
           res.send(toRet);
@@ -114,12 +121,12 @@ app.post('/deletesubdistricts', async (req, res) => {
           toRet = {"isDelete": "True"};
           res.send(toRet);
         }
+        res.send(subdistricts);
     } catch (error) {
         console.error(error);
         res.sendStatus(501);
     }
 });
-
 
 mongoose.connect('mongodb://test:test@ds223609.mlab.com:23609/ciphappdb', (err) => {
     if (!err)
