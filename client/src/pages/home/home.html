@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
@@ -8,22 +8,35 @@
 </ion-header>
 
 <ion-content padding>
-  <h3>Welcome to CanIParkHere!</h3>
-  <button ion-button primary (click)="getLocation()">Locate Me!</button>
-
-  <!-- Search bar -->
-  <form [formGroup]="searchBar" (ngSubmit)="getLocationData()">
-    <ion-item>
-        <ion-label floating color="primary">Enter an address</ion-label>
-        <ion-input formControlName="address" type="text" required></ion-input>
-    </ion-item>
-    <button ion-button>Search</button>
-  </form>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+          <form [formGroup]="searchBar" (ngSubmit)="getLocationData()">
+            <ion-item>
+              <ion-label floating color="primary">Enter an Address</ion-label>
+              <ion-input formControlName="address" type="text" required></ion-input>
+          </ion-item>
+            </form>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col id="map_wrapper">
+          <agm-map [latitude]="latitude" [longitude]="longitude" (mapClick)="dropPin($event)">
+              <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
+            </agm-map>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col id="locateMe">
+          <button ion-button block outline type="button" icon-left (click)="getLocation()">
+              <ion-icon name="locate"></ion-icon>
+              Locate Me
+            </button>
+      </ion-col>
+      <ion-col>
+          <button ion-button block outline type="button">Search</button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
   
-  <div id="map_wrapper">
-    <!-- This is the Google maps HTML tag -->
-    <agm-map [latitude]="latitude" [longitude]="longitude" (mapClick)="dropPin($event)">
-      <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
-    </agm-map>
-  </div>
-</ion-content>
+  </ion-content>
