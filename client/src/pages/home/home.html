@@ -14,7 +14,7 @@
   <form [formGroup]="searchBar" (ngSubmit)="getLocationData()">
     <ion-item>
         <ion-label floating color="primary">Enter an address</ion-label>
-        <ion-input formControlName="address" type="text" required></ion-input>
+        <ion-input formControlName="address" type="text" required clearInput></ion-input>
     </ion-item>
     <button ion-button>Search</button>
   </form>
@@ -22,15 +22,13 @@
   <div id="map_wrapper">
     <!-- This is the Google maps HTML tag -->
     <agm-map [latitude]="34.0522" [longitude]="-118.2437">
-      <div *ngFor="let coord of apiService.parkingCoordinates">
-        <agm-marker [latitude]="coord.lat" [longitude]="coord.lng">
-            <agm-info-window>
-              <h6>{{apiService.streetName}}</h6>
-              <h6>Sweep days = {{apiService.sweepDays}}</h6>
-              <h6>Sweep time = {{apiService.sweepTime}}</h6>
-            </agm-info-window>
-        </agm-marker>
-      </div>
+      <agm-marker [latitude]="apiService.latitude" [longitude]="apiService.longitude">
+          <agm-info-window>
+            <h6>{{apiService.streetName}}</h6>
+            <h6>Sweep days = {{apiService.sweepDays}}</h6>
+            <h6>Parking times = {{apiService.parkingTimes}}</h6>
+          </agm-info-window>
+      </agm-marker>
     </agm-map>
   </div>
 </ion-content>

@@ -14,15 +14,12 @@ import axios from 'axios';
 export class HomePage {
   searchBar : FormGroup;
 
-  latitude: number = 40.730610;
-  longitude: number = -73.935242;
-
   constructor(public navCtrl: NavController, private geolocation: Geolocation, public apiService: ApiService) {
     this.searchBar = new FormGroup({
         address: new FormControl()
     });
   }
-
+  
   // Grabs the user input from the search bar and returns an object storing the location data
   getLocationData() {
     const location = this.searchBar.value.address;
@@ -65,10 +62,8 @@ export class HomePage {
             case "postal_code": locationData.postal_code = value; break;
           }
         }
-
         locationData.latitude = result.geometry.location.lat;
         locationData.longitude = result.geometry.location.lng;
-
       })
       .catch(function(error){
         console.log(error);
