@@ -5,6 +5,7 @@ var mongoose = require('mongoose');
 var app = express();
 var Subdistrict = require('./Models/Subdistrict');
 var Parkinglot = require('./Models/Parkinglot');
+var bestNum = [];
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -36,25 +37,61 @@ app.post('/addsubdistrict', (req, res) => {
 app.post('/rangeData', async (req, res) => {
     try {
         var address = req.body;
-        var resSubDistricts = {};
+        var longitude = address.longitude;
+        var resSubDistricts1 = {};
         var key = 'SubDistInfo';
-        resSubDistricts[key] = [];
-
+        resSubDistricts1[key] = [];
         var subdistricts = await Subdistrict.find({});
         subdistricts.forEach(subdist => {
             subdist.Streets.forEach(street => {
                 if (street.ShortName === address.ShortName) {
-                    resSubDistricts[key].push(subdist);
+                    resSubDistricts1[key].push(subdist);
                 }
             });
         });
 
-        res.send(resSubDistricts);
+        resSubDistricts1[key].forEach(subDist => {
+            let counts = subDist.GeoFence;
+            let goal = longitude;
+            bestNum.push(counts.reduce((prev, curr) => Math.abs(curr - goal) < Math.abs(prev - goal) ? curr : prev));
+        });
+
+        let goal = longitude;
+        bestNum = bestNum.reduce((prev, curr) => (Math.abs(curr) - goal) < (Math.abs(prev) - goal) ? curr : prev);
+
+        var resSubDistricts2 = {};
+        resSubDistricts2[key] = [];
+        let temps = await subdistricts.forEach(subdist => {
+            subdist.Streets.forEach(street => {
+                let matchingGeo = false;
+                geo(subdist.GeoFence, bestNum).then(function (result) {
+                    if ((street.ShortName === address.ShortName) && result) {
+                        resSubDistricts2[key].push(subdist);
+                    }
+                });
+            });
+        });
+        
+        res.send(resSubDistricts2);
     } catch (error) {
         console.log(error);
         res.sendStatus(501);
     }
 });
+
+
+function geo(geoFence, bestNum, callback) {
+    return new Promise(function (resolve, reject) {
+        geoFence.forEach(x => {
+            if(x == bestNum){
+                resolve(true);
+            }
+        });
+    });
+};
+
+
+
 
 app.post('/addparkinglot', (req, res) => {
     var parkingLotData = req.body;
