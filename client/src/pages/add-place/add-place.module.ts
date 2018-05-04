@@ -11,5 +11,8 @@ import { Geolocation } from '@ionic-native/geolocation';
   imports: [
     IonicPageModule.forChild(AddPlacePage),
   ],
+  providers: [
+    Geolocation
+  ]
 })
 export class AddPlacePageModule {}

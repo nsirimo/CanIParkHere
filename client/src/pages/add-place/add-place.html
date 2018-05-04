@@ -1,18 +1,55 @@
-<!--
-  Generated template for the AddPlacePage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
-
-  <ion-navbar>
-    <ion-title>add-place</ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
-<ion-content padding>
-
-</ion-content>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-navbar>
+      <ion-title>Add Place</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content padding>
+    <form #f="ngForm" (ngSubmit)="onSubmit(f)">
+        <ion-list>
+          <ion-item>
+           <ion-label fixed> Title</ion-label>
+           <ion-input type="text" placeholder="Beautiful home .." name="title" ngModel required></ion-input>
+          </ion-item>
+           <ion-item>
+            <ion-label floating> Short Description</ion-label>
+              <ion-textarea name="Description" ngModel required></ion-textarea>
+          </ion-item>
+        </ion-list>
+        <ion-grid>
+          <ion-row>
+            <ion-col>
+              <button ion-button block outline type="button" icon-left (click)="onOpenMap()">
+                <ion-icon name="map"></ion-icon>
+                Select on Map
+              </button>
+            </ion-col>
+          </ion-row>
+          <ion-row *ngIf="locationIsSet">
+            <ion-col>
+                <agm-map [latitude]="lat" [longitude]="lng">
+                  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+                  </agm-map>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>
+              <img [src]="">
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>
+              <button ion-button color="secondary" block type="submit" [disabled]="!f.valid || !locationIsSet">
+                Add this Place
+              </button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+    </form>
+  </ion-content>
+  

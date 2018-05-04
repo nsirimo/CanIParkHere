@@ -11,6 +11,7 @@ import { FindParkingPage } from '../pages/find-parking/find-parking';
 import { AddPlacePage } from '../pages/add-place/add-place';
 import { GroundOverlayPage } from '../pages/ground-overlay/ground-overlay';
 import { MapPage } from '../pages/map/map';
+import { SetLocationPage } from '../pages/set-location/set-location';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -24,6 +25,7 @@ import { Geolocation } from '@ionic-native/geolocation';
     FindParkingPage,
     AddPlacePage,
     MapPage,
+    SetLocationPage,
     
     
   ],
@@ -42,6 +44,7 @@ import { Geolocation } from '@ionic-native/geolocation';
     FindParkingPage,
     AddPlacePage,
     MapPage,
+    SetLocationPage,
     
    
   ],
