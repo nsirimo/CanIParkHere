@@ -23,12 +23,14 @@
     <!-- This is the Google maps HTML tag -->
     <agm-map [latitude]="34.0522" [longitude]="-118.2437">
       <div *ngFor="let coord of apiService.parkingCoordinates">
-        <agm-marker [latitude]="coord.lat" [longitude]="coord.lng"></agm-marker>
+        <agm-marker [latitude]="coord.lat" [longitude]="coord.lng">
+            <agm-info-window>
+              <h6>{{apiService.streetName}}</h6>
+              <h6>Sweep days = {{apiService.sweepDays}}</h6>
+              <h6>Sweep time = {{apiService.sweepTime}}</h6>
+            </agm-info-window>
+        </agm-marker>
       </div>
     </agm-map>
-  </div>
-
-  <div *ngFor="let c of apiService.parkingCoordinates">
-    <h3>Lat = {{c.lat}}, Lng = {{c.lng}}</h3>
   </div>
 </ion-content>
