@@ -8,6 +8,9 @@ import { HttpModule } from '@angular/http';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { FindParkingPage } from '../pages/find-parking/find-parking';
+import { AddPlacePage } from '../pages/add-place/add-place';
+import { GroundOverlayPage } from '../pages/ground-overlay/ground-overlay';
+import { MapPage } from '../pages/map/map';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -19,6 +22,9 @@ import { Geolocation } from '@ionic-native/geolocation';
     MyApp,
     HomePage,
     FindParkingPage,
+    AddPlacePage,
+    MapPage,
+    
     
   ],
   imports: [
@@ -34,6 +40,9 @@ import { Geolocation } from '@ionic-native/geolocation';
     MyApp,
     HomePage,
     FindParkingPage,
+    AddPlacePage,
+    MapPage,
+    
    
   ],
   providers: [

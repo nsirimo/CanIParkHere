@@ -5,6 +5,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { FindParkingPage } from '../pages/find-parking/find-parking';
+import { AddPlacePage } from '../pages/add-place/add-place';
+import { GroundOverlayPage } from '../pages/ground-overlay/ground-overlay';
+import { MapPage } from '../pages/map/map';
 
 
 @Component({
@@ -24,6 +27,8 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage },
       { title: 'Find Parking', component: FindParkingPage},
+      { title: 'Add PLace', component: AddPlacePage},
+      { title: 'Shading Map Region', component: MapPage},
       
     ];
 

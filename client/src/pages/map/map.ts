@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-
-
 /**
- * Generated class for the AddPlacePage page.
+ * Generated class for the MapPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -12,16 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-add-place',
-  templateUrl: 'add-place.html',
+  selector: 'page-map',
+  templateUrl: 'map.html',
 })
-export class AddPlacePage {
+export class MapPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad AddPlacePage');
+    console.log('ionViewDidLoad MapPage');
   }
 
 }
