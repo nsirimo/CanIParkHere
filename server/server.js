@@ -70,11 +70,57 @@ app.post('/addparkinglot', (req, res) => {
     });
 });
 
+app.post('/deleteparkinglots', async (req, res) => {
+    try {
+        var parkingLots = await Parkinglot.find();
+        if(!parkingLots.length){
+          toRet = {"isDelete": "False"};
+          res.send(toRet);
+        } else{
+          await Parkinglot.remove();
+          toRet = {"isDelete": "True"};
+          res.send(toRet);
+        }
+    } catch (error) {
+        console.error(error);
+        res.sendStatus(501);
+    }
+});
+
 app.post('/checkforsubdistrict', async (req, res) => {
     try {
         var subDistData = req.body;
         var subDist = new Subdistrict(subDistData)
         var subdistricts = await Subdistrict.find(subDistData);
+      
+        if(!subdistricts.length){
+          toRet = {"isFound": "False"};
+          res.send(toRet);
+        } else{
+          toRet = {"isFound": "True"};
+          res.send(toRet);
+        }
+        //res.send(subdistricts);
+    } catch (error) {
+        console.error(error);
+        res.sendStatus(501);
+    }
+});
+
+app.post('/deletesubdistricts', async (req, res) => {
+    try {
+        var subDistData = req.body;
+        var subDist = new Subdistrict(subDistData)
+        var subdistricts = await Subdistrict.find();
+
+        if(!subdistricts.length){
+          toRet = {"isDelete": "False"};
+          res.send(toRet);
+        } else{
+          await Subdistrict.remove();
+          toRet = {"isDelete": "True"};
+          res.send(toRet);
+        }
         res.send(subdistricts);
     } catch (error) {
         console.error(error);

@@ -1,6 +1,7 @@
 import json
 import urllib
 import os
+import time
 from datetime import datetime
 from pprint import pprint
 import requests
@@ -9,6 +10,7 @@ class pLotUpdateTool:
     def __init__(self):
         self.url = "http://geohub.lacity.org/datasets/be7c8c4ab95b4d82af18255ad1a3212c_2.geojson"
         self.post_url = "http://localhost:3000/addparkinglot"
+        self.delete_url = "http://localhost:3000/deleteparkinglots"
         self.raw_rem_data = "be7c8c4ab95b4d82af18255ad1a3212c_2.txt"
         self.raw_loc_data = "parkingLots.txt"
 
@@ -18,18 +20,16 @@ class pLotUpdateTool:
             with open(self.raw_rem_data) as f:
                 self.new_data = json.load(f)
             areLots = self.check_par_lots()
-            if areLots:
-                self.refresh()
-            else:
-                http.retrieve(self.url, self.raw_loc_data)
-                self.force_changes()
+            http.retrieve(self.url, self.raw_loc_data)
+            self.force_changes()
         except Exception, e:
             log_name = 'init-connection-error-{date:%Y-%m-%d %H:%M:%S}.log'.format(date=datetime.now())
             print("refresh_error")
             self.log(log_name, str(e))
 
     def force_changes(self):
-        print("fC")
+        print("fC-pLUT")
+        self.db_nuke()
         for i in self.new_data["features"]:
             cur_lot = str(i["properties"]["ID"]) + ".lot"
             formatted_data = self.format(i["properties"])
@@ -38,7 +38,7 @@ class pLotUpdateTool:
         self.push_updates()
 
     def refresh(self):
-        print("rF")
+        print("rFpLUT")
         try:
             http = urllib.URLopener()
             http.retrieve(self.url, self.raw_rem_data)
@@ -63,10 +63,16 @@ class pLotUpdateTool:
             with open(i) as f:
                 curr = json.load(f)
             #pprint(curr)
-            data_json = json.dumps(i)
-            payload = {'json_payload': data_json}
+            #data_json = json.dumps(i)
+            #payload = {'json_payload': data_json}
             req = requests.post(self.post_url, json=curr)
             print(req)
+
+    def db_nuke(self):
+        print("Nuking Database")
+        req = requests.post(self.delete_url)
+        print(req)
+        time.sleep(1)
 
     def format(self, lot_info):
         lot_id = lot_info.get("ID")
