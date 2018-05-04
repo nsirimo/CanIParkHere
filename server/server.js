@@ -5,7 +5,6 @@ var mongoose = require('mongoose');
 var app = express();
 var Subdistrict = require('./Models/Subdistrict');
 var Parkinglot = require('./Models/Parkinglot');
-var bestNum = [];
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -36,6 +35,7 @@ app.post('/addsubdistrict', (req, res) => {
 
 app.post('/rangeData', async (req, res) => {
     try {
+        var bestNum = [];
         var address = req.body;
         var longitude = address.longitude;
         var resSubDistricts1 = {};
@@ -71,7 +71,7 @@ app.post('/rangeData', async (req, res) => {
                 });
             });
         });
-        
+
         res.send(resSubDistricts2);
     } catch (error) {
         console.log(error);
