@@ -8,22 +8,26 @@
 </ion-header>
 
 <ion-content padding>
-  <h3>Welcome to CanIParkHere!</h3>
-  <button ion-button primary (click)="getLocation()">Locate Me!</button>
-
-  <!-- Search bar -->
-  <form [formGroup]="searchBar" (ngSubmit)="getLocationData()">
-    <ion-item>
-        <ion-label floating color="primary">Enter an address</ion-label>
-        <ion-input formControlName="address" type="text" required></ion-input>
-    </ion-item>
-    <button ion-button>Search</button>
-  </form>
-  
-  <div id="map_wrapper">
-    <!-- This is the Google maps HTML tag -->
-    <agm-map [latitude]="latitude" [longitude]="longitude" (mapClick)="dropPin($event)">
-      <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
-    </agm-map>
-  </div>
+    <h3>Welcome to CanIParkHere!</h3>
+    <div>
+      <p>
+        Hello there, if you are using this app, then you are finally tired of the Los Angeles County parking. 
+        Mainly, you are interested in wanting to know where exactly can you park at the destination you chose.
+        Well, you are in good hands. Welcome to the CanIParkHere App. We are here to help you find a parking within the Los Angeles County.
+     </p>
+     
+     
+    </div>
+    <div>
+        <h3>Who are we?</h3>
+        <p>
+          We are a team of students at California State University, Los Angeles majoring in Computer Science. Besides as students, we also face the struggle of finding parking
+          and trying to figure out if we are allowed to park there without getting a ticket. Lets face it, parking is a drag. Mainly, if you are trying to park in Los Angeles. 
+          
+     
+        </p>
+    </div>
+    <div>
+        <h3>Instructions</h3>
+    </div>
 </ion-content>

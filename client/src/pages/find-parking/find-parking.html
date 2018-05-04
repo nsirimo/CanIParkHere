@@ -1,0 +1,44 @@
+<ion-header>
+    <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+  <ion-navbar>
+    <ion-title>Find Parking</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<ion-grid>
+  <ion-row>
+    <ion-col>
+        <form [formGroup]="searchBar" (ngSubmit)="getLocationData()">
+            <ion-item>
+                <ion-label floating color="primary">Enter an address</ion-label>
+                <ion-input formControlName="address" type="text" required></ion-input>
+            </ion-item>
+          </form>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col id="map_wrapper">
+        <agm-map [latitude]="latitude" [longitude]="longitude" (mapClick)="dropPin($event)">
+            <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
+          </agm-map>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+        <button ion-button block outline type="button" icon-left (click)="getLocation()">
+            <ion-icon name="locate"></ion-icon>
+            Locate Me
+          </button>
+    </ion-col>
+    <ion-col>
+        <button ion-button block outline type="button">Search</button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+</ion-content>
