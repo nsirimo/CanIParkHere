@@ -1,9 +1,10 @@
 
 <ion-header>
-    <button ion-button menuToggle>
-        <ion-icon name="menu"></ion-icon>
-      </button>
-  <ion-navbar>
+    
+  <ion-navbar color="primary">
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
     <ion-title>Map</ion-title>
   </ion-navbar>
 
@@ -27,6 +28,11 @@
           <agm-map [latitude]="lat" [longitude]="lng">
             <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
           </agm-map>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <button ion-button block outline type="button">Search</button>
         </ion-col>
       </ion-row>
     </ion-grid>

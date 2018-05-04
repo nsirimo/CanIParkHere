@@ -1,8 +1,9 @@
 <ion-header>
-    <button ion-button menuToggle>
-        <ion-icon name="menu"></ion-icon>
-      </button>
-  <ion-navbar>
+    
+  <ion-navbar color="primary">
+      <button  ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
     <ion-title>Find Parking</ion-title>
   </ion-navbar>
 
@@ -15,7 +16,7 @@
     <ion-col>
         <form [formGroup]="searchBar" (ngSubmit)="getLocationData()">
             <ion-item>
-                <ion-label floating color="primary">Enter an address</ion-label>
+                <ion-label floating color="light">Enter an Address</ion-label>
                 <ion-input formControlName="address" type="text" required></ion-input>
             </ion-item>
           </form>
