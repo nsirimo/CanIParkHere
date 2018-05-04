@@ -10,6 +10,8 @@ export class ApiService {
     sendLocationData(locationData) {
         this.http.post('http://localhost:3000/rangeData', locationData).subscribe(res => {
             
+            this.parkingCoordinates = []; // Remove previous parking coordinates
+
             var subdistricts = res.json().SubDistInfo;
             var subdistrict = subdistricts[0]; // Get the first subdistrict for now
             var streets = subdistrict.Streets;
@@ -24,8 +26,8 @@ export class ApiService {
             var parkingLocations = street.Coord;
             for (var i = 0; i < parkingLocations.length; i += 2) {
                 var coordinate = {
-                    lat: parkingLocations[i],
-                    lng: parkingLocations[i+1]
+                    lat: parkingLocations[i+1],
+                    lng: parkingLocations[i]
                 }
                 this.parkingCoordinates.push(coordinate);
             }

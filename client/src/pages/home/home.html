@@ -8,8 +8,7 @@
 </ion-header>
 
 <ion-content padding>
-  <h3>Welcome to CanIParkHere!</h3>
-  <button ion-button primary (click)="getLocation()">Locate Me!</button>
+  <h1>Welcome to CanIParkHere!</h1>
 
   <!-- Search bar -->
   <form [formGroup]="searchBar" (ngSubmit)="getLocationData()">
@@ -22,8 +21,8 @@
   
   <div id="map_wrapper">
     <!-- This is the Google maps HTML tag -->
-    <agm-map [latitude]="34.0522" [longitude]="-118.2437" (mapClick)="dropPin($event)">
-      <div *ngFor="let coord of apiService.parkingCoordinates" >
+    <agm-map [latitude]="34.0522" [longitude]="-118.2437">
+      <div *ngFor="let coord of apiService.parkingCoordinates">
         <agm-marker [latitude]="coord.lat" [longitude]="coord.lng"></agm-marker>
       </div>
     </agm-map>
