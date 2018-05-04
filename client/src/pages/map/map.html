@@ -22,8 +22,13 @@
           </form>
         </ion-col>
       </ion-row>
+      <ion-row>
+        <ion-col>
+          <agm-map [latitude]="lat" [longitude]="lng">
+            <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+          </agm-map>
+        </ion-col>
+      </ion-row>
     </ion-grid>
-    <agm-map [latitude]="lat" [longitude]="lng">
-      <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
-    </agm-map>
+  
     </ion-content>
