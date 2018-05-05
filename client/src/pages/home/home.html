@@ -8,16 +8,20 @@
 </ion-header>
 
 <ion-content padding>
-  <h1>Welcome to CanIParkHere!</h1>
+  <h1 text-center>Welcome to CanIParkHere!</h1>
 
   <!-- Search bar -->
-  <form [formGroup]="searchBar" (ngSubmit)="getLocationData()">
-    <ion-item>
-        <ion-label floating color="primary">Enter an address</ion-label>
-        <ion-input formControlName="address" type="text" required clearInput></ion-input>
-    </ion-item>
-    <button ion-button>Search</button>
-  </form>
+  <div class="center">
+    <form [formGroup]="searchBar" (ngSubmit)="getLocationData()">
+        <ion-item>
+            <ion-label floating color="primary">Enter an address</ion-label>
+            <ion-input formControlName="address" type="text" required clearInput></ion-input>
+        </ion-item>
+        <button ion-button block margin>Search</button>
+      </form>
+  </div>
+  
+  
   
   <div id="map_wrapper">
     <!-- This is the Google maps HTML tag -->
@@ -27,14 +31,13 @@
             <div id="info_box">
               <h3>{{apiService.streetName}}</h3>
               <ion-grid>
-
+                <div *ngFor="let parkingData of apiService.parkingData">
+                  <ion-row>
+                    <ion-col><strong>{{parkingData.day}}</strong></ion-col>
+                    <ion-col>{{parkingData.time}}</ion-col>
+                  </ion-row>
+                </div>
               </ion-grid>
-              <div *ngFor="let parkingData of apiService.parkingData">
-                <ion-row>
-                  <ion-col><strong>{{parkingData.day}}</strong></ion-col>
-                  <ion-col>{{parkingData.time}}</ion-col>
-                </ion-row>
-              </div>
             </div>
           </agm-info-window>
       </agm-marker>
