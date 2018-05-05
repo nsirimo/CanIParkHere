@@ -14,30 +14,12 @@ import axios from 'axios';
 export class HomePage {
   searchBar : FormGroup;
 
-  latitude: number = 40.730610;
-  longitude: number = -73.935242;
-
   constructor(public navCtrl: NavController, private geolocation: Geolocation, public apiService: ApiService) {
     this.searchBar = new FormGroup({
         address: new FormControl()
     });
   }
-
-  getLocation() {
-    this.geolocation.getCurrentPosition().then((resp) => {
-      this.latitude = resp.coords.latitude;
-      this.longitude = resp.coords.longitude;
-    }).catch((error) => {
-      alert('Oh noes! It looks like you may have blocked CanIParkHere from getting your geolocation. Try again.');
-    });
-  }
-
-  dropPin(event) {
-    this.latitude = event.coords.lat;
-    this.longitude = event.coords.lng;
-    this.getLocationData();
-  }
-
+  
   // Grabs the user input from the search bar and returns an object storing the location data
   getLocationData() {
     const location = this.searchBar.value.address;
@@ -52,7 +34,8 @@ export class HomePage {
       country: null,
       postal_code: null,
       latitude: null,
-      longitude: null
+      longitude: null,
+      formatted_address: null
     }
 
     var axioGet = axios.get('https://maps.googleapis.com/maps/api/geocode/json', {
@@ -67,8 +50,8 @@ export class HomePage {
         // Get the address components of the current location
         const addressComponents = result.address_components;
         for (var i = 0; i < addressComponents.length; i++) {
-          const key = addressComponents[i].types[0];    // Description of the address component
-          const value = addressComponents[i].short_name; // Actual value of the address component
+          const key = addressComponents[i].types[0];      // Description of the address component
+          const value = addressComponents[i].short_name;  // Actual value of the address component
           switch (key) {
             case "premise": locationData.premise = value; break;
             case "street_number": locationData.street_number = value; break;
@@ -80,10 +63,9 @@ export class HomePage {
             case "postal_code": locationData.postal_code = value; break;
           }
         }
-
         locationData.latitude = result.geometry.location.lat;
         locationData.longitude = result.geometry.location.lng;
-
+        locationData.formatted_address = result.formatted_address;
       })
       .catch(function(error){
         console.log(error);
@@ -92,7 +74,5 @@ export class HomePage {
       axioGet.then(() => {
         this.apiService.sendLocationData(locationData);
       });
-
-     
   }
 }
