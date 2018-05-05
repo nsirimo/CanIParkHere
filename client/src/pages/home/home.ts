@@ -14,7 +14,6 @@ import axios from 'axios';
 export class HomePage {
   searchBar : FormGroup;
 
-  // Insert default coordinates
   latitude: number = 40.730610;
   longitude: number = -73.935242;
 
@@ -41,14 +40,12 @@ export class HomePage {
 
   // Grabs the user input from the search bar and returns an object storing the location data
   getLocationData() {
-    // Grab the location from the search bar
     const location = this.searchBar.value.address;
 
-    // Create an object to store all the location data
     var locationData = {
       premise: null,
       street_number: null,
-      route: null,
+      ShortName: null,
       locality: null,
       administrative_area_level_2: null,
       administrative_area_level_1: null,
@@ -58,8 +55,7 @@ export class HomePage {
       longitude: null
     }
 
-    // Use Axios to allow HTTP requests to the Google Maps database
-    axios.get('https://maps.googleapis.com/maps/api/geocode/json', {
+    var axioGet = axios.get('https://maps.googleapis.com/maps/api/geocode/json', {
         params: {
           address: location,
           key: 'AIzaSyC8HflTKNC5-IDgtzYkJNOf6pZeZLaykLc'
@@ -72,11 +68,11 @@ export class HomePage {
         const addressComponents = result.address_components;
         for (var i = 0; i < addressComponents.length; i++) {
           const key = addressComponents[i].types[0];    // Description of the address component
-          const value = addressComponents[i].long_name; // Actual value of the address component
+          const value = addressComponents[i].short_name; // Actual value of the address component
           switch (key) {
             case "premise": locationData.premise = value; break;
             case "street_number": locationData.street_number = value; break;
-            case "route": locationData.route = value; break;
+            case "route": locationData.ShortName = value; break;
             case "locality": locationData.locality = value; break;
             case "administrative_area_level_2": locationData.administrative_area_level_2 = value; break;
             case "administrative_area_level_1": locationData.administrative_area_level_1 = value; break;
@@ -85,18 +81,18 @@ export class HomePage {
           }
         }
 
-        // Get the location coordinates
         locationData.latitude = result.geometry.location.lat;
         locationData.longitude = result.geometry.location.lng;
 
-        // Print the location data for testing purposes
-        console.log(locationData);
       })
       .catch(function(error){
         console.log(error);
       });
 
+      axioGet.then(() => {
+        this.apiService.sendLocationData(locationData);
+      });
 
-      this.apiService.sendLocationData(locationData);
+     
   }
 }
