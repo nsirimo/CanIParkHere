@@ -22,11 +22,20 @@
   <div id="map_wrapper">
     <!-- This is the Google maps HTML tag -->
     <agm-map [latitude]="34.0522" [longitude]="-118.2437">
-      <agm-marker [latitude]="apiService.latitude" [longitude]="apiService.longitude">
+      <agm-marker [latitude]="apiService.coords.lat" [longitude]="apiService.coords.lng">
           <agm-info-window>
-            <h6>{{apiService.streetName}}</h6>
-            <h6>Sweep days = {{apiService.sweepDays}}</h6>
-            <h6>Parking times = {{apiService.parkingTimes}}</h6>
+            <div id="info_box">
+              <h3>{{apiService.streetName}}</h3>
+              <ion-grid>
+
+              </ion-grid>
+              <div *ngFor="let parkingData of apiService.parkingData">
+                <ion-row>
+                  <ion-col><strong>{{parkingData.day}}</strong></ion-col>
+                  <ion-col>{{parkingData.time}}</ion-col>
+                </ion-row>
+              </div>
+            </div>
           </agm-info-window>
       </agm-marker>
     </agm-map>

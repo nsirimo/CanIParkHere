@@ -1,7 +1,6 @@
 agm-map {
     height: 70%;
     width: 70%;
-    padding: 50em;
 }
 
 #map_wrapper {
@@ -9,4 +8,8 @@ agm-map {
     margin-right: 10%;
     height: 100%;
     width: 100%;
+}
+
+#info_box {
+    padding: 1em;
 }
